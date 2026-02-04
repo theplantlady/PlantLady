@@ -1,0 +1,111 @@
+import blog_1 from "@/assets/images/blog-image-1.jpg";
+import blog_2 from "@/assets/images/blog-image-2.jpg";
+import blog_3 from "@/assets/images/blog-image-3.jpg";
+import blog_4 from "@/assets/images/blog-image-4.jpg";
+import blog_5 from "@/assets/images/blog-image-5.jpg";
+import blog_6 from "@/assets/images/blog-image-6.jpg";
+import blog_7 from "@/assets/images/blog-image-7.jpg";
+import blog_8 from "@/assets/images/blog-image-8.jpg";
+import blog_9 from "@/assets/images/blog-image-9.jpg";
+
+export const blogData = [
+  {
+    id: 1,
+    thumb: blog_1,
+    author: "The Plant Lady TX",
+    date: "06 February 25",
+    tag: "Plant Care",
+    title: "The Plant Refresh Playbook",
+    desc: "How to reset your home or office plants after winter—light, drainage, watering signals, and a maintenance rhythm that actually works.",
+    slug: "plant-refresh-playbook",
+    link: "/blog/plant-refresh-playbook",
+  },
+  {
+    id: 2,
+    thumb: blog_2,
+    author: "The Plant Lady TX",
+    date: "12 March 25",
+    tag: "Plant Care",
+    title: "Spring Repotting in North Texas",
+    desc: "When to repot, how much bigger to go, and the soil mix that keeps roots happy in Dallas interiors (no swamp pots).",
+    slug: "spring-repotting-north-texas",
+    link: "/blog/spring-repotting-north-texas",
+  },
+  {
+    id: 3,
+    thumb: blog_3,
+    author: "The Plant Lady TX",
+    date: "18 April 25",
+    tag: "Living Walls",
+    title: "Living Walls That Don’t Die",
+    desc: "What makes a living wall succeed: plant selection, irrigation, light, and the maintenance cadence that keeps it looking expensive.",
+    slug: "living-walls-that-dont-die",
+    link: "/blog/living-walls-that-dont-die",
+  },
+  {
+    id: 4,
+    thumb: blog_4,
+    author: "The Plant Lady TX",
+    date: "21 May 25",
+    tag: "Commercial",
+    title: "Office Plants That Thrive (Even Under HVAC)",
+    desc: "A practical plant strategy for lobbies, desks, and conference rooms—low drama, high impact, easier maintenance.",
+    slug: "office-plants-that-thrive",
+    link: "/blog/office-plants-that-thrive",
+  },
+  {
+    id: 5,
+    thumb: blog_5,
+    author: "The Plant Lady TX",
+    date: "27 June 25",
+    tag: "Outdoor",
+    title: "Summer Planters for Texas Heat",
+    desc: "How to build planters that survive Dallas summer: soil, irrigation, plant picks, and the watering mistakes that cook roots.",
+    slug: "summer-planters-texas-heat",
+    link: "/blog/summer-planters-texas-heat",
+  },
+  {
+    id: 6,
+    thumb: blog_6,
+    author: "The Plant Lady TX",
+    date: "07 August 25",
+    tag: "Troubleshooting",
+    title: "Bug Battle Ladder: Mites, Thrips, Mealybugs",
+    desc: "A sane escalation plan: diagnose fast, isolate, treat correctly, and prevent re-infestation without nuking your plants.",
+    slug: "bug-battle-ladder",
+    link: "/blog/bug-battle-ladder",
+  },
+  {
+    id: 7,
+    thumb: blog_7,
+    author: "The Plant Lady TX",
+    date: "19 September 25",
+    tag: "Seasonal",
+    title: "Fall Plant Reset Before You Bring Them Inside",
+    desc: "How to transition plants for cooler nights: pest checks, light shifts, watering changes, and how to avoid indoor shock.",
+    slug: "fall-plant-reset",
+    link: "/blog/fall-plant-reset",
+  },
+  {
+    id: 8,
+    thumb: blog_8,
+    author: "The Plant Lady TX",
+    date: "10 November 25",
+    tag: "Design",
+    title: "Holiday Greenery That Looks Expensive",
+    desc: "Clean, modern holiday plant styling for homes and businesses—plus what survives indoors without dropping needles everywhere.",
+    slug: "holiday-greenery-that-looks-expensive",
+    link: "/blog/holiday-greenery-that-looks-expensive",
+  },
+  {
+    id: 9,
+    thumb: blog_9,
+    author: "The Plant Lady TX",
+    date: "12 January 26",
+    tag: "Maintenance",
+    title: "The Maintenance Plan That Saves Your Plants (and Money)",
+    desc: "What a real plant maintenance plan includes—and why ‘we’ll water when we remember’ is the fastest way to burn cash.",
+    slug: "plant-maintenance-plan",
+    link: "/blog/plant-maintenance-plan",
+  },
+];
