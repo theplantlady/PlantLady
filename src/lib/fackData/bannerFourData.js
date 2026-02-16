@@ -1,6 +1,6 @@
-import hero_4 from "@/assets/images/hero-4.jpg"
-import hero_2 from "@/assets/images/hero-2.jpg"
-import hero_3 from "@/assets/images/hero-3.jpg"
+import hero_4 from "@/assets/images/hero/hero-4.jpg"
+import hero_2 from "@/assets/images/hero/hero-2.jpg"
+import hero_3 from "@/assets/images/hero/hero-3.jpg"
 
 export const bannerFourData = [
     {

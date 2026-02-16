@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import service_img from "@/assets/images/service-install-image.png"
+import service_img from "@/assets/images/services/service-install-image.png"
 import SectionTitle from '@/components/ui/sectionTitle'
 import Title from '@/components/ui/title'
 import ServiceSingleSidebar from '@/components/ui/serviceSingleSidebar'
@@ -18,8 +18,8 @@ const ServiceSingle = () => {
           <div className='container-fluid '>
             <SectionTitle sectionName={"Installation"} sectionTitle={"Services"} sectionDesc={"Bringing Your Plantscape Vision to Life with Expert Installation"} />
           </div>
-          <div className='container lg:pt-30 2sm:pt-20 pt-14'>
-            <div className='grid lg:grid-cols-[58%_auto] xl:gap-[120px] gap-15 items-start'>
+          <div className='container tab:pt-30 ts:pt-20 pt-14'>
+            <div className='grid tab:grid-cols-[58%_auto] tl:gap-[120px] gap-15 items-start'>
               <div>
                 <Image src={service_img} loading='lazy' alt='installation-service' />
                 <div className='pt-12.5'>
@@ -33,23 +33,23 @@ const ServiceSingle = () => {
                   <ul className=''>
                     <li>
                       <h5 className='font-bold text-plant-leaf-dark'>Site Preparation:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Assessing and preparing the environment to ensure plants thrive in their new setting.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Assessing and preparing the environment to ensure plants thrive in their new setting.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold text-plant-leaf-dark'>Professional Plant Installation:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Precise and careful placement of plants for maximum visual and environmental impact.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Precise and careful placement of plants for maximum visual and environmental impact.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold text-plant-leaf-dark'>Irrigation & Drainage Solutions:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Integration of proper watering systems to maintain plant health.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Integration of proper watering systems to maintain plant health.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold text-plant-leaf-dark'>Final Styling & Finishing Touches:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Enhancing aesthetics with decorative planters, mulching, and arrangement optimization.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Enhancing aesthetics with decorative planters, mulching, and arrangement optimization.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Post-Installation Care Guide:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Expert guidance on maintaining and nurturing your new plantscape.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Expert guidance on maintaining and nurturing your new plantscape.</p>
                     </li>
                   </ul>
                 </div>
@@ -58,19 +58,19 @@ const ServiceSingle = () => {
                   <ul>
                     <li>
                       <h5 className='font-bold'>Consultation & Planning:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Understanding your needs, space, and ideal plant selections.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Understanding your needs, space, and ideal plant selections.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Installation Day:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Our team delivers and installs plants efficiently and carefully.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Our team delivers and installs plants efficiently and carefully.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Quality Check & Adjustments:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Ensuring plants are properly placed and thriving before finalizing the installation.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Ensuring plants are properly placed and thriving before finalizing the installation.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Post-Installation Support:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Offering continued guidance and optional maintenance services to keep plants healthy.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Offering continued guidance and optional maintenance services to keep plants healthy.</p>
                     </li>
                   </ul>
                 </div>

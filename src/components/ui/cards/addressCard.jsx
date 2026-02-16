@@ -8,7 +8,7 @@ import Link from 'next/link';
 const AddressCard = ({ id, address, company, country, email, phone, lat_lng }) => {
     const {setMapDirection}=useContext(MapContext)
     return (
-        <div className='-mt-6 lg:-mt-0'>
+        <div className='-mt-6 tab:-mt-0'>
             <OutlineSvgText text={id}/>
             <Title title_text={country} className="mb-1" />
             <div>

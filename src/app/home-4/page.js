@@ -41,8 +41,8 @@ const Home4 = () => {
             link={"/team"}
           />
         </div>
-        <div className='container lg:pt-[340px] 2sm:pt-20 pt-14'>
-          <div className='grid lg:grid-cols-3 2sm:grid-cols-2 gap-7'>
+        <div className='container tab:pt-[340px] ts:pt-20 pt-14'>
+          <div className='grid tab:grid-cols-3 ts:grid-cols-2 gap-7'>
             {
               teamData.slice(0, 3).map(({ id, img, name, position, social_link }) => <TeamCardOne key={id} img={img} name={name} position={position} social_link={social_link} prantCalss={"team-card"} text_muted={"text-muted"} bg_muted={"bg-muted"} cardVariants={cardSlideAnimation()} />)
             }
@@ -65,7 +65,7 @@ const Home4 = () => {
             text_muted={"text-muted"} bg_muted={"bg-muted"}
           />
         </div>
-        <div className='container lg:pt-30 2sm:pt-20 pt-14'>
+        <div className='container tab:pt-30 ts:pt-20 pt-14'>
           <BlogSlider data={blogData.slice(0, 4)} />
         </div>
       </section>

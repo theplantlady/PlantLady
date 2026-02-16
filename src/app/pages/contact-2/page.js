@@ -25,9 +25,9 @@ const ContactTwo = () => {
             <div className='container-fluid '>
                 <SectionTitle sectionName={"Contact"} sectionTitle={"Let's Design Together"} sectionDesc={"Reach out to bring your dream spaces to life."} />
             </div>
-            <div className='container lg:pt-30 2sm:pt-20 pt-14'>
+            <div className='container tab:pt-30 ts:pt-20 pt-14'>
                 <div>
-                    <div className='grid lg:grid-cols-3 2sm:grid-cols-2 grid-cols-1 gap-y-6 lg:gap-y-0'>
+                    <div className='grid tab:grid-cols-3 ts:grid-cols-2 grid-cols-1 gap-y-6 tab:gap-y-0'>
                         {
                             addressList.map(({ id, address, company, country, email, phone, lat_lng }) => <AddressCard key={id} id={id} address={address} company={company} country={country} email={email} phone={phone} lat_lng={lat_lng} />)
                         }
@@ -37,11 +37,11 @@ const ContactTwo = () => {
                     </div>
                 </div>
                 {/* ------- contact form */}
-                <div className='grid lg:grid-cols-2 gap-x-30 gap-y-16 lg:gap-y-0 lg:pt-30 2sm:pt-20 pt-14'>
+                <div className='grid tab:grid-cols-2 gap-x-30 gap-y-16 tab:gap-y-0 tab:pt-30 ts:pt-20 pt-14'>
                     <h2 className='[font-size:_clamp(40px,7vw,90px)] font-extrabold leading-120'>Have a Project in your mind?</h2>
                     <form>
                         <InputFiled placeholderc={"Your Name"} type={"text"} className={"mb-[13px]"} />
-                        <div className='flex sm:flex-row flex-col gap-x-5'>
+                        <div className='flex phx:flex-row flex-col gap-x-5'>
                             <InputFiled placeholderc={"Phone Number"} type={"number"} className={"mb-[13px]"} />
                             <InputFiled placeholderc={"Your Email"} type={"email"} className={"mb-[13px]"} />
                         </div>

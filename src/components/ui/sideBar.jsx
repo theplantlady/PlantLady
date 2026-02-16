@@ -110,7 +110,7 @@ const recentPostData = [
 ]
 const SideBar = ({ order }) => {
     return (
-        <div className={`lg:sticky lg:top-16 lg:pb-16 ${order}`}>
+        <div className={`tab:sticky tab:top-16 tab:pb-16 ${order}`}>
             <div>
                 <h1 className='[font-size:_clamp(33px,5vw,48px)] font-semibold leading-[100%] text-primary-foreground mb-[30px]'>Serach</h1>
                 <InputFiled placeholderc={"Type & Hit Enter"} type={'text'} />
@@ -140,7 +140,7 @@ const SideBar = ({ order }) => {
                 <h1 className='[font-size:_clamp(33px,5vw,48px)] font-semibold leading-[100%] text-primary-foreground mb-[30px] last:mb-0'>Tags</h1>
                 <div className='flex gap-3 flex-wrap'>
                     {
-                        tagList.map(({ id, link, tag }) => <Link href={""} key={id}> <ButtonOutline className={"font-normal px-2.5 sm:py-[5px] py-[5px] border"}> <span className='text-lg'>{tag}</span> </ButtonOutline> </Link>)
+                        tagList.map(({ id, link, tag }) => <Link href={""} key={id}> <ButtonOutline className={"font-normal px-2.5 phx:py-[5px] py-[5px] border"}> <span className='text-lg'>{tag}</span> </ButtonOutline> </Link>)
                     }
                 </div>
             </div>

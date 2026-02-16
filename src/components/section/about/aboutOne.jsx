@@ -22,7 +22,7 @@ const aboutList = [
         id: "03",
         item: "Living Spaces, Living Art",
         item_desc: "Plants are living art. From lush green walls to elegant botanical accents, we turn your vision into a stunning, breathing masterpiece."
-    },
+    }
 ];
 
 
@@ -41,18 +41,18 @@ const AboutOne = ({ text_muted, bg_muted }) => {
                     text_muted={text_muted}
                     bg_muted={bg_muted}
                 />
-                <div className={cn(`bg-primary xl:mt-[220px] lg:mt-25 md:mt-44 mt-[540px] xl:mb-20 mb-0 ${bg_muted}`)}>
+                <div className={cn(`bg-primary tl:mt-[220px] tab:mt-25 tab:mt-44 mt-[540px] tl:mb-20 mb-0 ${bg_muted}`)}>
                     <div className='container'>
-                        <div className='flex lg:flex-row flex-col items-center gap-[66px]'>
-                            <SectionSidebarImg img={about_img} section_name={"about-bg"} className="md:-mt-25 -mt-[470px] -mb-25"/>
-                            <ul className='lg:mt-0 mt-20 lg:pb-0 pb-10'>
+                        <div className='flex tab:flex-row flex-col items-center gap-[66px]'>
+                            <SectionSidebarImg img={about_img} section_name={"about-bg"} className="tab:-mt-25 -mt-[470px] -mb-25"/>
+                            <ul className='tab:mt-0 mt-20 tab:pb-0 pb-10'>
                                 {
                                     aboutList.map(({ id, item, item_desc }) => {
                                         return (
-                                            <li key={id} className='lg:flex gap-10 pb-10 last:pb-0 justify-between'>
-                                                <svg ref={ref} strokeWidth="1" className={`h-[65px] w-20 relative -top-2 left-3 xl:text-6xl text-5xl mb-3 lg:mb-0 inline-block font-extrabold leading-120  ${inView ? "animate-text-line-animation stroke-secondary stroke-dasharray-1000 stroke-dashoffset-1000" : " fill-transparent stroke-secondary "}`}><text x="0%" dominantBaseline="middle" y="70%">{id}</text></svg>
+                                            <li key={id} className='tab:flex gap-10 pb-10 last:pb-0 justify-between'>
+                                                <svg ref={ref} strokeWidth="1" className={`h-[65px] w-20 relative -top-2 left-3 tl:text-6xl text-5xl mb-3 tab:mb-0 inline-block font-extrabold leading-120  ${inView ? "animate-text-line-animation stroke-secondary stroke-dasharray-1000 stroke-dashoffset-1000" : " fill-transparent stroke-secondary "}`}><text x="0%" dominantBaseline="middle" y="70%">{id}</text></svg>
                                                 <div className='max-w-[534px]'>
-                                                    <h4 className='text-3xl 2sm:text-4xl font-bold leading-135 text-secondary-foreground'>{item}</h4>
+                                                    <h4 className='text-3xl ts:text-4xl font-bold leading-135 text-secondary-foreground'>{item}</h4>
                                                     <p className='text-lg text-secondary-foreground font-normal'>{item_desc}</p>
                                                 </div>
                                             </li>

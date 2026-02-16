@@ -23,7 +23,7 @@ const BannerThree = () => {
                             <TextTyped text={['Excellence', 'Sophistication', 'Elegance', 'Brilliance', 'Harmony']} />
                         </h1>
                         <Link href={"/project-archive"} className='mt-16 inline-block'>
-                            <ButtonFill className={`sm:px-10 px-4 after:left-0 after:bg-secondary text-primary-foreground border-secondary hover:text-secondary-foreground`}> Explore Our Portfolio <RightArrow width={"35"} height={"22"}/> </ButtonFill>
+                            <ButtonFill className={`phx:px-10 px-4 after:left-0 after:bg-secondary text-primary-foreground border-secondary hover:text-secondary-foreground`}> Explore Our Portfolio <RightArrow width={"35"} height={"22"}/> </ButtonFill>
                         </Link>
                     </div>
                 </div>

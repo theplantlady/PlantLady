@@ -4,9 +4,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from "swiper/modules"
 import 'swiper/css';
 
-import project_img_3 from "@/assets/images/project-image-3.jpg"
-import project_img_4 from "@/assets/images/project-image-4.jpg"
-import project_img_5 from "@/assets/images/project-image-5.jpg"
+import project_img_3 from "@/assets/images/projects/project-image-3.jpg"
+import project_img_4 from "@/assets/images/projects/project-image-4.jpg"
+import project_img_5 from "@/assets/images/projects/project-image-5.jpg"
 
 import ProgressAndNatigation from '../../ui/progressAndNatigation'
 import Image from 'next/image';

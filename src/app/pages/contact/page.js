@@ -34,14 +34,14 @@ const Contact = () => {
                 <div className='container-fluid '>
                     <SectionTitle sectionName={"Contact"} sectionTitle={"Let's Design Together"} sectionDesc={"Reach out to bring your dream spaces to life."} />
                 </div>
-                <div className='container lg:pt-30 2sm:pt-20 pt-14'>
-                    <div className='grid lg:grid-cols-[32%_auto]'>
-                        <div className='grid lg:grid-cols-1 2sm:grid-cols-2 grid-cols-1 gap-y-6'>
+                <div className='container tab:pt-30 ts:pt-20 pt-14'>
+                    <div className='grid tab:grid-cols-[32%_auto]'>
+                        <div className='grid tab:grid-cols-1 ts:grid-cols-2 grid-cols-1 gap-y-6'>
                             {
                                 addressList.map(({ id, address, company, country, email, phone, lat_lng }) => <AddressCard key={id} id={id} address={address} company={company} country={country} email={email} phone={phone} lat_lng={lat_lng} />)
                             }
                         </div>
-                        <div className='w-full max-h-[392px] lg:sticky lg:top-20 z-[1] mt-16 lg:mt-0'>
+                        <div className='w-full max-h-[392px] tab:sticky tab:top-20 z-[1] mt-16 tab:mt-0'>
                             <LeafletMap />
                         </div>
                     </div>
@@ -55,12 +55,12 @@ const Contact = () => {
                 <div className='container-fluid '>
                     <SectionTitle sectionName={"Inquiry"} sectionTitle={"Have a Project in your mind?"} sectionDesc={"Write us directly"} />
                 </div>
-                <div className='container lg:pt-30 2sm:pt-20 pt-14'>
-                    <div className='grid lg:grid-cols-2 gap-5'>
+                <div className='container tab:pt-30 ts:pt-20 pt-14'>
+                    <div className='grid tab:grid-cols-2 gap-5'>
                         <Image src={from_img} loading='lazy'      alt='contact-form' className='w-full h-auto' />
                         <form>
                             <InputFiled placeholderc={"Your Name"} type={"text"} className={"mb-[13px]"} />
-                            <div className='flex sm:flex-row flex-col gap-x-5'>
+                            <div className='flex phx:flex-row flex-col gap-x-5'>
                                 <InputFiled placeholderc={"Phone Number"} type={"number"} className={"mb-[13px]"} />
                                 <InputFiled placeholderc={"Your Email"} type={"email"} className={"mb-[13px]"} />
                             </div>

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import service_img from "@/assets/images/service-design-image.jpeg"
+import service_img from "@/assets/images/services/service-design-image.jpeg"
 import SectionTitle from '@/components/ui/sectionTitle'
 import Title from '@/components/ui/title'
 import ServiceSingleSidebar from '@/components/ui/serviceSingleSidebar'
@@ -19,8 +19,8 @@ const ServiceSingle = () => {
         <div className='container-fluid '>
           <SectionTitle sectionName={"Design"} sectionTitle={"Services"} sectionDesc={"Creating Vibrant Spaces Through Innovative Plantscape Design"} />
         </div>
-        <div className='container lg:pt-30 2sm:pt-20 pt-14'>
-          <div className='grid lg:grid-cols-[58%_auto] xl:gap-[120px] gap-15 items-start'>
+        <div className='container tab:pt-30 ts:pt-20 pt-14'>
+          <div className='grid tab:grid-cols-[58%_auto] tl:gap-[120px] gap-15 items-start'>
             <div>
               <Image src={service_img} loading='lazy'      alt='service-img' />
               <div className='pt-12.5'>
@@ -36,25 +36,25 @@ const ServiceSingle = () => {
                 <ul>
                   <li>
                     <h5 className='font-bold'>Custom Plantscape Design:</h5>
-                    <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Tailored plant designs that complement your space, style, and environmental needs.</p>
+                    <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Tailored plant designs that complement your space, style, and environmental needs.</p>
                   </li>
                   <li className='pt-7.5'>
                     <h5 className='font-bold'>Expert Plant Selection:</h5>
-                    <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Carefully chosen plants suited to lighting, humidity, and design preferences.</p>
+                    <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Carefully chosen plants suited to lighting, humidity, and design preferences.</p>
                   </li>
                   <li className='pt-7.5'>
                     <h5 className='font-bold'>Installation & Setup:</h5>
-                    <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Seamless placement and installation to ensure
+                    <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Seamless placement and installation to ensure
                       optimal plant health and aesthetics.</p>
                   </li>
                   <li className='pt-7.5'>
                     <h5 className='font-bold'>Ongoing Maintenance Options:</h5>
-                    <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Flexible maintenance plans to keep your plants
+                    <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Flexible maintenance plans to keep your plants
                       thriving long-term.</p>
                   </li>
                   <li className='pt-7.5'>
                     <h5 className='font-bold'>Sustainable & Biophilic Design:</h5>
-                    <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Eco-conscious solutions that enhance well-being
+                    <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Eco-conscious solutions that enhance well-being
                       and sustainability.</p>
                   </li>
                 </ul>
@@ -64,21 +64,21 @@ const ServiceSingle = () => {
                 <ul>
                   <li>
                     <h5 className='font-bold'>Consultation & Space Assessment:</h5>
-                    <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>We evaluate your space, needs, and design goals to craft the perfect plantscape.</p>
+                    <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>We evaluate your space, needs, and design goals to craft the perfect plantscape.</p>
                   </li>
                   <li className='pt-7.5'>
                     <h5 className='font-bold'>Design & Proposal:</h5>
-                    <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Receive a customized plan with plant recommendations
+                    <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Receive a customized plan with plant recommendations
                       and layout concepts.</p>
                   </li>
                   <li className='pt-7.5'>
                     <h5 className='font-bold'>Installation & Final Touches:</h5>
-                    <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Our team installs your plantscape with precision
+                    <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Our team installs your plantscape with precision
                       and care.</p>
                   </li>
                   <li className='pt-7.5'>
                     <h5 className='font-bold'>Post-Installation Support:</h5>
-                    <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>We provide guidance on plant care and offer
+                    <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>We provide guidance on plant care and offer
                       maintenance plans to keep your space green and thriving.</p>
                   </li>
                 </ul>

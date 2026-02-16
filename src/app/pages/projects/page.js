@@ -19,7 +19,7 @@ const ProjectArchive = () => {
                     sectionDesc={"From 3D Concepts to Stunning Interior Plantscapes"}
                 />
             </div>
-            <div className='lg:pt-30 2sm:pt-20 pt-14'>
+            <div className='tab:pt-30 ts:pt-20 pt-14'>
                 <div className=''>
                     {
                         projectsData.map(({ id, project_desc, project_img, project_name, project_year, project_type, location, link }) => {
@@ -34,8 +34,8 @@ const ProjectArchive = () => {
                                         project_year={project_year}
                                         link={link}
                                         project_name={project_name}
-                                        order={'lg:order-1 order-0'}
-                                        position={"lg:absolute lg:right-0 lg:top-1/2 lg:-translate-y-1/2"}
+                                        order={'tab:order-1 order-0'}
+                                        position={"tab:absolute tab:right-0 tab:top-1/2 tab:-translate-y-1/2"}
                                         imageVariants={cardSlideAnimationRight()}
                                         cardVariants={cardSlideAnimationRightDelay()}
                                     />
@@ -52,7 +52,7 @@ const ProjectArchive = () => {
                                         project_year={project_year}
                                         link={link}
                                         project_name={project_name}
-                                        position={"lg:absolute lg:left-0 lg:top-1/2 lg:-translate-y-1/2"}
+                                        position={"tab:absolute tab:left-0 tab:top-1/2 tab:-translate-y-1/2"}
                                         imageVariants={cardSlideAnimation()}
                                         cardVariants={cardSlideAnimationDelay()}
                                     />

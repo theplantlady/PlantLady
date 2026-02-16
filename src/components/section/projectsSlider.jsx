@@ -41,7 +41,7 @@ const ProjectsSlider = ({ text_muted, bg_muted }) => {
                     text_muted={text_muted}
                 />
             </div>
-            <div className='container-fluid relative lg:pt-30 2sm:pt-20 pt-14'>
+            <div className='container-fluid relative tab:pt-30 ts:pt-20 pt-14'>
 
                 <Swiper
                     slidesPerView={1}
@@ -60,23 +60,23 @@ const ProjectsSlider = ({ text_muted, bg_muted }) => {
                         projectsData.map(({ id, area, client, project_imgs, project_type, project_year }) => {
                             return (
                                 <SwiperSlide key={id}>
-                                    <div className='bg-cover bg-no-repeat pb-[70px] lg:pt-[758px] pt-[500px] max-w-[1550px] after:contents-[""] after:absolute after:top-0 after:right-0 after:w-full after:h-full after:bg-bottom-liner after:z-[1] after:max-w-[1550px] ml-auto' style={{ backgroundImage: `url(${project_imgs[0].src})` }}>
-                                        <div className='flex xl:justify-end justify-center -mt-36 xl:-mt-0 5xl:gap-20 3xl:gap-14 sm:gap-10 gap-4 max-w-[1166px] relative z-10 ml-auto pr-7.5'>
+                                    <div className='bg-cover bg-no-repeat pb-[70px] tab:pt-[758px] pt-[500px] max-w-[1550px] after:contents-[""] after:absolute after:top-0 after:right-0 after:w-full after:h-full after:bg-bottom-liner after:z-[1] after:max-w-[1550px] ml-auto' style={{ backgroundImage: `url(${project_imgs[0].src})` }}>
+                                        <div className='flex tl:justify-end justify-center -mt-36 tl:-mt-0 wd:gap-20 lp:gap-14 phx:gap-10 gap-4 max-w-[1166px] relative z-10 ml-auto pr-7.5'>
                                             <h6 className='flex flex-col text-2xl font-bold leading-160 text-secondary-foreground whitespace-nowrap'>Clients:
                                                 <span className='text-lg font-normal'>{client}</span>
                                             </h6>
 
-                                            <h6 className='sm:flex hidden flex-col text-2xl font-bold leading-160 text-secondary-foreground whitespace-nowrap'>Area:
+                                            <h6 className='phx:flex hidden flex-col text-2xl font-bold leading-160 text-secondary-foreground whitespace-nowrap'>Area:
                                                 <span className='text-lg font-normal'>{area}</span>
                                             </h6>
-                                            <h6 className='sm:flex hidden flex-col text-2xl font-bold leading-160 text-secondary-foreground whitespace-nowrap '>Project year:
+                                            <h6 className='phx:flex hidden flex-col text-2xl font-bold leading-160 text-secondary-foreground whitespace-nowrap '>Project year:
                                                 <span className='text-lg font-normal'>{project_year}</span>
                                             </h6>
                                             <h6 className='flex flex-col text-2xl font-bold leading-160 text-secondary-foreground whitespace-nowrap'>Project type:
                                                 <span className='text-lg font-normal'>{project_type}</span>
                                             </h6>
-                                            <Link href={"/pages/projects/"} className='4xl:block hidden'>
-                                                <ButtonOutline className="border-secondary text-secondary-foreground sm:px-10 px-3 whitespace-nowrap hover:border-primary">View Gallery</ButtonOutline>
+                                            <Link href={"/pages/projects/"} className='dt:block hidden'>
+                                                <ButtonOutline className="border-secondary text-secondary-foreground phx:px-10 px-3 whitespace-nowrap hover:border-primary">View Gallery</ButtonOutline>
                                             </Link>
                                         </div>
                                     </div>
@@ -85,14 +85,14 @@ const ProjectsSlider = ({ text_muted, bg_muted }) => {
                         })
                     }
                 </Swiper>
-                <div className='flex justify-center xl:justify-start items-center xl:items-end flex-col xl:flex-row gap-5 '>
-                    <div className={cn(`project-pagination 3xl:max-w-[673px] max-w-[500px] w-full bg-primary xl:px-10 px-7 xl:pt-25 xl:pb-[150px] py-16 relative z-[1] xl:mt-[-271px] mt-[-100px] ${bg_muted}`)}> </div>
-                    <div className='flex items-end sm:gap-5 gap-2'>
+                <div className='flex justify-center tl:justify-start items-center tl:items-end flex-col tl:flex-row gap-5 '>
+                    <div className={cn(`project-pagination lp:max-w-[673px] max-w-[500px] w-full bg-primary tl:px-10 px-7 tl:pt-25 tl:pb-[150px] py-16 relative z-[1] tl:mt-[-271px] mt-[-100px] ${bg_muted}`)}> </div>
+                    <div className='flex items-end phx:gap-5 gap-2'>
                         <div onClick={() => swiperRef.current?.slidePrev()}>
-                            <ButtonFill className={"rotate-180 h-[75px] w-[75px] sm:px-3 px-3 after:bg-secondary border-secondary hover:border-primary hover:bg-primary hover:text-secondary text-primary-foreground "}><RightArrow width={"35"} height={"22"} /></ButtonFill>
+                            <ButtonFill className={"rotate-180 h-[75px] w-[75px] phx:px-3 px-3 after:bg-secondary border-secondary hover:border-primary hover:bg-primary hover:text-secondary text-primary-foreground "}><RightArrow width={"35"} height={"22"} /></ButtonFill>
                         </div>
                         <div onClick={() => swiperRef.current?.slidePrev()}>
-                            <ButtonFill className={cn(`h-[75px] hover:border-primary sm:px-10 px-3 after:left-0 after:${bg_muted}`)}>Next Project <RightArrow width={"35"} height={"22"} /></ButtonFill>
+                            <ButtonFill className={cn(`h-[75px] hover:border-primary phx:px-10 px-3 after:left-0 after:${bg_muted}`)}>Next Project <RightArrow width={"35"} height={"22"} /></ButtonFill>
                         </div>
                     </div>
                 </div>

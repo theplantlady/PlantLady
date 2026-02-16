@@ -7,15 +7,15 @@ const Footer = () => {
         <footer className=' container-fluid  mx-auto '>
             <div className=' bg-secondary '>
                 <div className='container'>
-                    <div className='grid lg:grid-cols-3 grid-cols-1 items-center pt-[100px] pb-20'>
+                    <div className='grid tab:grid-cols-3 grid-cols-1 items-center pt-[100px] pb-20'>
                         <div>
                             <Link href={""} className='text-primary-foreground'>
                                 <Logo height={"30"} width={"218"} />
                             </Link>
-                            <h5 className='xl:text-2xl text-xl font-semibold text-primary-foreground leading-160 pt-2.5 pb-3'>Shaping Interior Excellence</h5>
+                            <h5 className='tl:text-2xl text-xl font-semibold text-primary-foreground leading-160 pt-2.5 pb-3'>Shaping Interior Excellence</h5>
                             <SocialMediaList />
                         </div>
-                        <div className='mt-12 lg:mt-0 flex gap-x-10'>
+                        <div className='mt-12 tab:mt-0 flex gap-x-10'>
                             <span className='h-[198px] w-[1px] bg-primary block my-2.5'></span>
                             <div>
                                 <h5 className='text-2xl font-extrabold block text-primary-foreground leading-160 '>Address Spain:</h5>
@@ -31,7 +31,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='mt-12 lg:mt-0 flex gap-x-10'>
+                        <div className='mt-12 tab:mt-0 flex gap-x-10'>
                             <span className='h-[198px] w-[1px] bg-primary block my-2.5'></span>
                             <div>
                                 <h5 className='text-2xl font-extrabold inline-block text-primary-foreground leading-160 '>Address USA:</h5>
@@ -49,9 +49,9 @@ const Footer = () => {
                         </div>
                     </div>
                     <hr className='bg-pritext-primary-foreground' />
-                    <div className='py-8 lg:flex justify-between items-center'>
+                    <div className='py-8 tab:flex justify-between items-center'>
                         <span className='text-sm text-primary-foreground block'>Made with Love by <Link href={""}>ThemePerch</Link> </span>
-                        <span className='text-sm text-primary-foreground block mt-3 lg:mt-0'>©2024, Architronix, All Rights Reserved</span>
+                        <span className='text-sm text-primary-foreground block mt-3 tab:mt-0'>©2024, Architronix, All Rights Reserved</span>
                     </div>
                 </div>
             </div>

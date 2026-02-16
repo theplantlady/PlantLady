@@ -2,7 +2,7 @@ import SectionTitle from '@/components/ui/sectionTitle'
 import Title from '@/components/ui/title'
 import Image from 'next/image'
 import React from 'react'
-import team_img from "@/assets/images/team-2.jpg" // Replace with Shelbi’s actual photo if available
+import team_img from "@/assets/images/team/team-2.jpg" // Replace with Shelbi’s actual photo if available
 import Link from 'next/link'
 import RightArrow from '@/assets/icons/rightArrow'
 import ProjectCardThree from '@/components/ui/cards/projectCardThree'
@@ -27,9 +27,9 @@ const TeamSingle = () => {
                         sectionDesc={"Cultivating Growth & Client Connections"}
                     />
                 </div>
-                <div className='container lg:pt-30 2sm:pt-20 pt-14'>
+                <div className='container tab:pt-30 ts:pt-20 pt-14'>
                     <div
-                        className='grid xl:grid-cols-[auto_538px] lg:grid-cols-[auto_350px] md:grid-cols-[auto_400px] 2xl:gap-[132px] gap-16 items-start'>
+                        className='grid tl:grid-cols-[auto_538px] tab:grid-cols-[auto_350px] tab:grid-cols-[auto_400px] tl:gap-[132px] gap-16 items-start'>
 
                         {/* Left Column */}
                         <div>
@@ -51,7 +51,7 @@ const TeamSingle = () => {
                                 <ul>
                                     <li>
                                         <h5 className='font-bold'>Client Relations & Collaboration:</h5>
-                                        <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>
+                                        <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>
                                             Shelbi excels at understanding client needs and ensuring that each project
                                             aligns with their vision, budget, and lifestyle. She fosters open
                                             communication
@@ -60,7 +60,7 @@ const TeamSingle = () => {
                                     </li>
                                     <li className='pt-7.5'>
                                         <h5 className='font-bold'>Creative Plant Solutions:</h5>
-                                        <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>
+                                        <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>
                                             As part of the design process, Shelbi collaborates on selecting plant
                                             varieties,
                                             color schemes, and layout strategies that showcase each space’s personality
@@ -76,7 +76,7 @@ const TeamSingle = () => {
                                 <ul>
                                     <li>
                                         <h5 className='font-bold'>Client-Centric Mindset:</h5>
-                                        <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>
+                                        <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>
                                             Shelbi believes in building genuine relationships with clients, ensuring
                                             transparency and trust throughout the entire project cycle—from consultation
                                             to maintenance.
@@ -84,7 +84,7 @@ const TeamSingle = () => {
                                     </li>
                                     <li className='pt-7.5'>
                                         <h5 className='font-bold'>Passion for Biophilic Design:</h5>
-                                        <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>
+                                        <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>
                                             With a keen eye for aesthetic harmony and well-being benefits, she strives
                                             to incorporate nature into interior and exterior settings in a way that
                                             complements modern lifestyles.
@@ -99,7 +99,7 @@ const TeamSingle = () => {
                                 <ul>
                                     <li>
                                         <h5 className='font-bold'>Business Development:</h5>
-                                        <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>
+                                        <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>
                                             As co-owner, Shelbi collaborates with Jeremy on key decisions that shape
                                             the company’s growth, fosters client relationships, and ensures The Plant Lady maintains its reputation for quality and innovation.
                                         </p>
@@ -162,7 +162,7 @@ const TeamSingle = () => {
                 <h2 className='[font-size:_clamp(40px,7vw,90px)] text-primary-foreground font-extrabold leading-120 max-w-[651px]'>
                     Portfolio Showcase:
                 </h2>
-                <div className='grid lg:grid-cols-3 2sm:grid-cols-2 gap-5 pt-10'>
+                <div className='grid tab:grid-cols-3 ts:grid-cols-2 gap-5 pt-10'>
                     {teamData[0].portfolio.map(({id, img, link, project_name}) => (
                         <ProjectCardThree key={id} img={img} project_name={project_name}/>
                     ))}

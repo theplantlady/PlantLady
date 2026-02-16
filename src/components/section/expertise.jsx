@@ -42,8 +42,8 @@ const Expertise = () => {
                     sectionTitle={"Mastering the Art of Plantscape Design"}
                     sectionDesc={"Where Creativity Meets Horticultural Proficiency"}
                 />
-                <div className='lg:mt-30 2sm:mt-20 mt-14 bg-secondary'>
-                    <div className='flex lg:flex-row flex-col items-center gap-15 '>
+                <div className='tab:mt-30 ts:mt-20 mt-14 bg-secondary'>
+                    <div className='flex tab:flex-row flex-col items-center gap-15 '>
                         <div>
                             {/* Use an appropriate background image that aligns with The Plant Lady TX's brand */}
                             <SectionSidebarImg
@@ -52,10 +52,10 @@ const Expertise = () => {
                                 className={"w-full h-full"}
                             />
                         </div>
-                        <div className='px-3 2xl:py-0 py-7 max-w-[609px] w-full'>
+                        <div className='px-3 tl:py-0 py-7 max-w-[609px] w-full'>
                             <Title
                                 title_text={"Expertise Progress"}
-                                className={"2xl:mb-20 mb-14"}
+                                className={"tl:mb-20 mb-14"}
                             />
                             <p className='mb-16 text-primary-foreground'>
                                 From cozy homes to bustling offices, The Plant Lady TX blends horticultural science and design artistry to create thriving greenery.

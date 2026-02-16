@@ -6,12 +6,12 @@ import MobileNavbar from './mobileNavbar'
 const HeaderTwo = () => {
     return (
         <header className='w-full bg-background shadow-md'>
-            <div className=' hidden xl:block'>
+            <div className=' hidden tl:block'>
                 <div className='container-fluid'>
                     <BottomNavbar />
                 </div>
             </div>
-            <div className='xl:hidden block'>
+            <div className='tl:hidden block'>
                 <MobileNavbar />
             </div>
         </header >

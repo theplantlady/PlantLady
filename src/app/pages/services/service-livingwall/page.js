@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import service_img from "@/assets/images/service-living-walls-image.png"
+import service_img from "@/assets/images/services/service-living-walls-image.png"
 import SectionTitle from '@/components/ui/sectionTitle'
 import Title from '@/components/ui/title'
 import ServiceSingleSidebar from '@/components/ui/serviceSingleSidebar'
@@ -18,8 +18,8 @@ const ServiceSingle = () => {
           <div className='container-fluid '>
             <SectionTitle sectionName={"Living Walls"} sectionTitle={"Services"} sectionDesc={"Transforming Spaces with Vibrant Vertical Gardens"} />
           </div>
-          <div className='container lg:pt-30 2sm:pt-20 pt-14'>
-            <div className='grid lg:grid-cols-[58%_auto] xl:gap-[120px] gap-15 items-start'>
+          <div className='container tab:pt-30 ts:pt-20 pt-14'>
+            <div className='grid tab:grid-cols-[58%_auto] tl:gap-[120px] gap-15 items-start'>
               <div>
                 <Image src={service_img} loading='lazy' alt='living-walls-service' />
                 <div className='pt-12.5'>
@@ -33,19 +33,19 @@ const ServiceSingle = () => {
                   <ul>
                     <li>
                       <h5 className='font-bold'>Custom Design & Planning:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Personalized living wall designs tailored to your space, style, and plant preferences.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Personalized living wall designs tailored to your space, style, and plant preferences.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Premium Plant Selection:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Carefully curated plants suited for vertical gardens, ensuring longevity and beauty.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Carefully curated plants suited for vertical gardens, ensuring longevity and beauty.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Installation & Irrigation Systems:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Expert installation with integrated irrigation for hassle-free maintenance.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Expert installation with integrated irrigation for hassle-free maintenance.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Ongoing Maintenance Plans:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Flexible maintenance services to keep your living wall lush and thriving.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Flexible maintenance services to keep your living wall lush and thriving.</p>
                     </li>
                   </ul>
                 </div>
@@ -54,15 +54,15 @@ const ServiceSingle = () => {
                   <ul>
                     <li>
                       <h5 className='font-bold'>Consultation & Design:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>We assess your space and create a custom living wall plan.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>We assess your space and create a custom living wall plan.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Professional Installation:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Our team installs the system, ensuring proper irrigation and plant arrangement.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Our team installs the system, ensuring proper irrigation and plant arrangement.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Post-Installation Care:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>We provide maintenance support to keep your living wall vibrant.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>We provide maintenance support to keep your living wall vibrant.</p>
                     </li>
                   </ul>
                 </div>

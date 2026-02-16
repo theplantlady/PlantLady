@@ -26,8 +26,8 @@ const AboutUs = () => {
                 link={"/team"}
             />
         </div>
-        <div className='container lg:pt-[340px] 2sm:pt-20 pt-14'>
-          <div className='grid lg:grid-cols-2 2sm:grid-cols-2 gap-7'>
+        <div className='container tab:pt-[340px] ts:pt-20 pt-14'>
+          <div className='grid tab:grid-cols-2 ts:grid-cols-2 gap-7'>
             {
               teamData.map(({ id, img, pageLink, name, position, social_link, page }) => <TeamCardOne key={id} img={img} name={name} position={position} page={page} social_link={social_link} pageLink={pageLink} prantCalss={"team-card"} cardVariants={cardSlideAnimation()} />)
             }

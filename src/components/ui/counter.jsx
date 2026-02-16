@@ -28,7 +28,7 @@ const Counter = ({text_muted, bg_muted}) => {
     return (
         <div className='pt-20'>
             <div className='container'>
-                <ul className='grid xl:grid-cols-4 lg:grid-cols-3 grid-cols-2 gap-10 '>
+                <ul className='grid tl:grid-cols-4 tab:grid-cols-3 grid-cols-2 gap-10 '>
                     {
                         counterList.map(({ id, count, title }) => {
                             return (
@@ -36,8 +36,8 @@ const Counter = ({text_muted, bg_muted}) => {
                                     <span className={cn(`[font-size:_clamp(48px,9vw,90px)] font-extrabold text-primary-foreground leading-120 overflow-y-hidden overflow-x-auto ${text_muted}`)}>
                                         <SlotCounter startValue={0} value={count} debounceDelay={5000} duration={2} animateOnVisible={{ triggerOnce: true, rootMargin: '0px 0px -100px 0px' }} />
                                     </span>
-                                    <span className={cn(`w-[150px] h-[1px] bg-primary 2sm:mt-3.5 2sm:mb-4 mt-1 mb-2 ${bg_muted}`)}></span>
-                                    <span className={cn(`2sm:text-2xl text-xl font-bold text-primary-foreground ${text_muted}`)}>{title}</span>
+                                    <span className={cn(`w-[150px] h-[1px] bg-primary ts:mt-3.5 ts:mb-4 mt-3 mb-2 ${bg_muted}`)}></span>
+                                    <span className={cn(`ts:text-2xl text-xl font-bold text-primary-foreground ${text_muted}`)}>{title}</span>
                                 </li>
                             )
                         })

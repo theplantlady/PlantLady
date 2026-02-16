@@ -53,8 +53,8 @@ const Faq = ({className}) => {
             <div className="container-fluid">
                 <SectionTitle sectionName={"FAQ"} sectionTitle={"Design Insights Unveiled"} sectionDesc={"Answers to Your Design Questions"} />
             </div>
-            <div className="container lg:pt-30 2sm:pt-20 pt-14">
-                <div className="grid lg:grid-cols-[40%_auto] items-center gap-17.5">
+            <div className="container tab:pt-30 ts:pt-20 pt-14">
+                <div className="grid tab:grid-cols-[40%_auto] items-center gap-17.5">
                     <div>
                         <SectionSidebarImg img={faq_img} section_name={"faq-background"} />
                     </div>
@@ -65,8 +65,8 @@ const Faq = ({className}) => {
                                 faqData.map(({ id, ans, question }) => {
                                     return (
                                         <AccordionItem value={id} className='mb-2.5'>
-                                            <AccordionTrigger className="text-xl font-semibold border border-primary sm:px-12.5 px-6">{question}</AccordionTrigger>
-                                            <AccordionContent className="mt-[22px] sm:px-12.5 px-6">
+                                            <AccordionTrigger className="text-xl font-semibold border border-primary phx:px-12.5 px-6">{question}</AccordionTrigger>
+                                            <AccordionContent className="mt-[22px] phx:px-12.5 px-6">
                                                 {ans}
                                             </AccordionContent>
                                         </AccordionItem>

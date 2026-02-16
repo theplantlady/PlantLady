@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import service_img from "@/assets/images/service-consult-image.png"
+import service_img from "@/assets/images/services/service-consult-image.png"
 import SectionTitle from '@/components/ui/sectionTitle'
 import Title from '@/components/ui/title'
 import ServiceSingleSidebar from '@/components/ui/serviceSingleSidebar'
@@ -18,8 +18,8 @@ const ServiceSingle = () => {
           <div className='container-fluid '>
             <SectionTitle sectionName={"Consulting"} sectionTitle={"Services"} sectionDesc={"Exclusive Expertise in Plantscape Strategy and Planning"} />
           </div>
-          <div className='container lg:pt-30 2sm:pt-20 pt-14'>
-            <div className='grid lg:grid-cols-[58%_auto] xl:gap-[120px] gap-15 items-start'>
+          <div className='container tab:pt-30 ts:pt-20 pt-14'>
+            <div className='grid tab:grid-cols-[58%_auto] tl:gap-[120px] gap-15 items-start'>
               <div>
                 <Image src={service_img} loading='lazy' alt='consulting-service' />
                 <div className='pt-12.5'>
@@ -33,19 +33,19 @@ const ServiceSingle = () => {
                   <ul>
                     <li>
                       <h5 className='font-bold'>Site & Design Assessment:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Comprehensive evaluation of your space to determine optimal plant selection and placement.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Comprehensive evaluation of your space to determine optimal plant selection and placement.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Custom Plantscape Plan:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Tailored recommendations on plant species, arrangements, and ongoing maintenance strategies.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Tailored recommendations on plant species, arrangements, and ongoing maintenance strategies.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Sustainability & Care Guidance:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Best practices for ensuring plant longevity, including watering schedules and light considerations.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Best practices for ensuring plant longevity, including watering schedules and light considerations.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Project Coordination:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Assistance with vendor recommendations and coordination for plant procurement and installation.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Assistance with vendor recommendations and coordination for plant procurement and installation.</p>
                     </li>
                   </ul>
                 </div>
@@ -54,15 +54,15 @@ const ServiceSingle = () => {
                   <ul>
                     <li>
                       <h5 className='font-bold'>Initial Inquiry:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Reach out to discuss your project needs and determine if consulting is the right fit.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Reach out to discuss your project needs and determine if consulting is the right fit.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Consultation Session:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>A one-time or ongoing advisory session where we provide expert recommendations.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>A one-time or ongoing advisory session where we provide expert recommendations.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Follow-Up & Implementation:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Guidance on executing the consulting recommendations, with optional support as needed.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Guidance on executing the consulting recommendations, with optional support as needed.</p>
                     </li>
                   </ul>
                 </div>

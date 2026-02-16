@@ -59,7 +59,7 @@ const Testimonial = ({ text_muted, bg_muted }) => {
                     text_muted={text_muted}
                 />
 
-                <div className='lg:pt-30 2sm:pt-20 pt-14'>
+                <div className='tab:pt-30 ts:pt-20 pt-14'>
                     <Swiper
                         spaceBetween={30}
                         breakpoints={{
@@ -82,7 +82,7 @@ const Testimonial = ({ text_muted, bg_muted }) => {
                             testimonialData.map(({ id, name, position, review }) => {
                                 return (
                                     <SwiperSlide key={id}>
-                                        <div className='flex md:gap-6 gap-2'>
+                                        <div className='flex tab:gap-6 gap-2'>
                                             <div className='text-secondary-foreground'><QuoteIcon /></div>
                                             <div className='mt-16'>
                                                 <p className={cn(`text-lg text-primary-foreground ${text_muted}`)}>{review}</p>

@@ -3,7 +3,7 @@ import SectionTitle from '@/components/ui/sectionTitle'
 import Title from '@/components/ui/title'
 import Image from 'next/image'
 import React from 'react'
-import team_img from "@/assets/images/team-1.jpg" // Replace with Jeremy’s actual photo if available
+import team_img from "@/assets/images/team/team-1.jpg" // Replace with Jeremy’s actual photo if available
 import Link from 'next/link'
 import RightArrow from '@/assets/icons/rightArrow'
 import ProjectCardThree from '@/components/ui/cards/projectCardThree'
@@ -28,8 +28,8 @@ const TeamSingle = () => {
                 sectionDesc={"Leading Innovation in Horticultural Design and Technology"}
             />
           </div>
-          <div className='container lg:pt-30 2sm:pt-20 pt-14'>
-            <div className='grid xl:grid-cols-[auto_538px] lg:grid-cols-[auto_350px] md:grid-cols-[auto_400px] 2xl:gap-[132px] gap-16 items-start'>
+          <div className='container tab:pt-30 ts:pt-20 pt-14'>
+            <div className='grid tl:grid-cols-[auto_538px] tab:grid-cols-[auto_350px] tab:grid-cols-[auto_400px] tl:gap-[132px] gap-16 items-start'>
 
               {/* Left Column */}
               <div>
@@ -50,14 +50,14 @@ const TeamSingle = () => {
                   <ul>
                     <li>
                       <h5 className='font-bold'>Horticultural Leadership:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>
                         Jeremy oversees custom plantscape projects and ensures every design meets exacting standards for
                         plant health and visual impact.
                       </p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Tech-Driven Plant Management:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>
                         He is instrumental in developing and refining the <strong>Plant Pulse</strong> system—an innovative
                         platform that uses Zoho Creator, Vue, and Firebase to streamline scheduling, care, and monitoring
                         for plant installations.
@@ -72,14 +72,14 @@ const TeamSingle = () => {
                   <ul>
                     <li>
                       <h5 className='font-bold'>Biophilic Approach:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>
                         Jeremy believes well-chosen greenery can elevate any space—promoting well-being, enhancing productivity,
                         and forging a deeper connection with nature.
                       </p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Practical Innovation:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>
                         He blends horticultural expertise with user-friendly software solutions, ensuring clients get
                         both stunning plant designs and the tools needed to maintain them effortlessly.
                       </p>
@@ -93,7 +93,7 @@ const TeamSingle = () => {
                   <ul>
                     <li>
                       <h5 className='font-bold'>Professional Development:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>
                         Jeremy continuously expands his skills by engaging with horticulture and tech communities, staying
                         abreast of evolving trends in plant care and software automation.
                       </p>
@@ -107,7 +107,7 @@ const TeamSingle = () => {
                   <ul>
                     <li>
                       <h5 className='font-bold'>Notable Achievements:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>
                         Under Jeremy’s guidance, The Plant Lady TX has earned local recognition for exceptional plant
                         installations and forward-thinking maintenance strategies, particularly through the use of
                         automation and data-driven plant care.
@@ -171,7 +171,7 @@ const TeamSingle = () => {
           <h2 className='[font-size:_clamp(40px,7vw,90px)] text-primary-foreground font-extrabold leading-120 max-w-[651px]'>
             Portfolio Showcase:
           </h2>
-          <div className='grid lg:grid-cols-3 2sm:grid-cols-2 gap-5 pt-10'>
+          <div className='grid tab:grid-cols-3 ts:grid-cols-2 gap-5 pt-10'>
             {teamData[0].portfolio.map(({ id, img, link, project_name }) => (
                 <ProjectCardThree key={id} img={img} project_name={project_name} />
             ))}

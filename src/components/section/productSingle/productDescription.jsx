@@ -11,14 +11,14 @@ const ProductDescription = () => {
     const [activeTab, setActiveTab] = useState(initialTabs[0])
     return (
         <div className='mt-30'>
-            <ul className='flex xm:flex-wrap gap-5 justify-between mb-2.5'>
+            <ul className='flex ph:flex-wrap gap-5 justify-between mb-2.5'>
                 {
                     initialTabs.map((item, index) => {
                         return (
                             <li
                                 key={index}
                                 onClick={() => setActiveTab(item)}
-                                className="relative xl:text-4xl md:text-3xl sm:text-2xl font-bold leading-135"
+                                className="relative tl:text-4xl tab:text-3xl phx:text-2xl font-bold leading-135"
                             >
                                 {activeTab === item && (
                                     <motion.span
@@ -46,7 +46,7 @@ const ProductDescription = () => {
                 <div className={`${activeTab === "Reviews" ? "relative opacity-100 translate-y-0 transition-all duration-500" : "absolute top-0 left-0 opacity-0 translate-y-10 transition-all duration-500"} bg-background `}>
                     <form>
                         <InputFiled placeholderc={"Your Name"} type={"text"} className={"mb-[13px]"} />
-                        <div className='flex sm:flex-row flex-col gap-x-5'>
+                        <div className='flex phx:flex-row flex-col gap-x-5'>
                             <InputFiled placeholderc={"Phone Number"} type={"number"} className={"mb-[13px]"} />
                             <InputFiled placeholderc={"Your Email"} type={"email"} className={"mb-[13px]"} />
                         </div>

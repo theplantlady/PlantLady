@@ -9,12 +9,12 @@ const HeaderThree = () => {
         <header className='absolute top-0 left-0 w-full z-50 overflow-x-clip'>
             <div className=' container-fluid '>
                 <div className='container border-white border-b'>
-                    <div className=' hidden xl:block' >
+                    <div className=' hidden tl:block' >
                         <BottomNavbar linkColor="text-white" />
                     </div>
                 </div>
             </div>
-            <div className='xl:hidden block'>
+            <div className='tl:hidden block'>
                 <MobileNavbar />
             </div>
         </header >

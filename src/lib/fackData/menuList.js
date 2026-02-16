@@ -96,6 +96,13 @@ export const menuList = [
     },
     {
         id: 6,
+        name: "Store",
+        path: "/pages/store/product-archive",
+        isMegaMenu: false,
+        isDropdown: false,
+    },
+    {
+        id: 7,
         name: "Contact",
         path: "/pages/contact",
         isMegaMenu: false,

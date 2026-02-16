@@ -16,7 +16,7 @@ const ProductSingle = () => {
   return (
     <>
       <div className='container mt-20'>
-        <div className='grid xl:grid-cols-[55%_auto] lg:grid-cols-2 gap-12.5'>
+        <div className='grid tl:grid-cols-[55%_auto] tab:grid-cols-2 gap-12.5'>
           <ProductPreview findProduct={findProduct} />
           <ProductOverview findProduct={findProduct} />
         </div>
@@ -24,8 +24,8 @@ const ProductSingle = () => {
       </div>
       {/* --------- related products */}
       <div className='container mt-30'>
-        <Title title_text={"Related Products"} className={"mb-10 md:mb-20"} />
-        <div className='grid lg:grid-cols-3 2sm:grid-cols-2 gap-7.5'>
+        <Title title_text={"Related Products"} className={"mb-10 tab:mb-20"} />
+        <div className='grid tab:grid-cols-3 ts:grid-cols-2 gap-7.5'>
           {
             productData.slice(0, 3).map(({ id, price, product_img, product_name, rating }) => {
               return (

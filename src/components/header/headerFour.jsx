@@ -29,10 +29,10 @@ const HeaderFour = () => {
 
     return (
         <header className='absolute z-50 top-0 left-0 w-full bg-gray  overflow-x-clip'>
-            <div className='hidden xl:block'>
+            <div className='hidden tl:block'>
                 <TopNavbar />
             </div>
-            <div className='border-border border-t border-b hidden xl:block container-fluid'>
+            <div className='border-border border-t border-b hidden tl:block container-fluid'>
                 <div className='bottom-navbar'>
                     <div className='relative flex justify-between items-center'>
                         <div>
@@ -83,7 +83,7 @@ const HeaderFour = () => {
                     <Cart setCartActive={setCartActive} cartActive={cartActive} />
                 </div>
             </div>
-            <div className='xl:hidden block'>
+            <div className='tl:hidden block'>
                 <MobileNavbar bg_muted={'bg-muted'} />
             </div>
         </header >

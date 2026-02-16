@@ -5,12 +5,12 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Thumbs, FreeMode } from "swiper/modules"
 import 'swiper/css';
 
-import project_img_1 from "@/assets/images/project-gallery-1.jpg"
-import project_img_2 from "@/assets/images/project-gallery-2.jpg"
-import project_img_3 from "@/assets/images/project-gallery-3.jpg"
-import project_img_4 from "@/assets/images/project-gallery-4.jpg"
-import project_img_5 from "@/assets/images/project-gallery-5.jpg"
-import project_img_6 from "@/assets/images/project-gallery-6.jpg"
+import project_img_1 from "@/assets/images/projects/project-gallery-1.jpg"
+import project_img_2 from "@/assets/images/projects/project-gallery-2.jpg"
+import project_img_3 from "@/assets/images/projects/project-gallery-3.jpg"
+import project_img_4 from "@/assets/images/projects/project-gallery-4.jpg"
+import project_img_5 from "@/assets/images/projects/project-gallery-5.jpg"
+import project_img_6 from "@/assets/images/projects/project-gallery-6.jpg"
 import RightArrow from '@/assets/icons/rightArrow';
 import ButtonFill from '@/components/ui/buttons/buttonFill';
 
@@ -84,10 +84,10 @@ const ProjectSingleSliderTwo = () => {
                 </Swiper>
                 <div className='absolute top-1/2 -translate-y-1/2 z-10 w-full flex justify-between items-center gap-5'>
                     <div onClick={() => swiperRef.current?.slidePrev()}>
-                        <ButtonFill className='rotate-180 2sm:h-[90px] h-10 2sm:w-[90px] w-10 2sm:px-6 px-1.5 after:bg-secondary border-secondary hover:border-primary text-primary-foreground hover:text-secondary-foreground hover:bg-primary'><RightArrow width={"35"} height={"22"} /></ButtonFill>
+                        <ButtonFill className='rotate-180 ts:h-[90px] h-10 ts:w-[90px] w-10 ts:px-6 px-1.5 after:bg-secondary border-secondary hover:border-primary text-primary-foreground hover:text-secondary-foreground hover:bg-primary'><RightArrow width={"35"} height={"22"} /></ButtonFill>
                     </div>
                     <div onClick={() => swiperRef.current?.slideNext()}>
-                        <ButtonFill className='2sm:h-[90px] h-10 2sm:w-[90px] w-10 2sm:px-6 px-1.5 border-secondary hover:border-primary after:bg-secondary text-primary-foreground hover:text-secondary-foreground hover:bg-primary'><RightArrow width={"35"} height={"22"} /></ButtonFill>
+                        <ButtonFill className='ts:h-[90px] h-10 ts:w-[90px] w-10 ts:px-6 px-1.5 border-secondary hover:border-primary after:bg-secondary text-primary-foreground hover:text-secondary-foreground hover:bg-primary'><RightArrow width={"35"} height={"22"} /></ButtonFill>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ const ProjectSingleSliderTwo = () => {
                     projectImg?.map(({ id, img }) => {
                         return (
                             <SwiperSlide key={id}>
-                                <Image src={img} loading='lazy'  alt='img' className='w-full lg:min-h-[250px] min-h-[100px] max-h-[100px] h-full ' />
+                                <Image src={img} loading='lazy'  alt='img' className='w-full tab:min-h-[250px] min-h-[100px] max-h-[100px] h-full ' />
                             </SwiperSlide>
                         )
                     })

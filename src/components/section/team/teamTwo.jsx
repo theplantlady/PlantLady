@@ -1,10 +1,10 @@
 import React from 'react'
 import SectionTitle from '../../ui/sectionTitle'
 import TeamCardTwo from '../../ui/cards/teamCardTwo'
-import team_13 from "@/assets/images/team-13.jpg"
-import team_14 from "@/assets/images/team-14.jpg"
-import team_15 from "@/assets/images/team-15.jpg"
-import team_16 from "@/assets/images/team-16.jpg"
+import team_13 from "@/assets/images/team/team-13.jpg"
+import team_14 from "@/assets/images/team/team-14.jpg"
+import team_15 from "@/assets/images/team/team-15.jpg"
+import team_16 from "@/assets/images/team/team-16.jpg"
 
 import credit_image_1 from "@/assets/images/credit-image-1.jpg"
 import credit_image_2 from "@/assets/images/credit-image-2.jpg"
@@ -70,8 +70,8 @@ const TeamTwo = () => {
             <div className='container-fluid '>
                 <SectionTitle sectionName={"Credits"} sectionTitle={"Exploring Our Creations"} sectionDesc={"The Talented Team Behind 'Elegant Urban Oasis"} />
             </div>
-            <div className='container lg:pt-30 2sm:pt-20 pt-14'>
-                <div className='grid 2sm:grid-cols-2  gap-10'>
+            <div className='container tab:pt-30 ts:pt-20 pt-14'>
+                <div className='grid ts:grid-cols-2  gap-10'>
                     {
                         temaList.slice(0, 4).map(({ id, desc, img, name, position, link }) => <TeamCardTwo key={id} desc={desc} img={img} name={name} position={position} link={link} />)
                     }
@@ -79,10 +79,10 @@ const TeamTwo = () => {
             </div>
             {/* ----  Other Credits */}
             <div className='container pt-30'>
-                <div className='relative after:absolute after:xl:-left-12.5 after:-left-7 after:top-1/2 after:-translate-y-1/2 after:w-[1px] after:h-[130%] after:bg-primary xl:ml-12.5 ml-7'>
-                    <h1 className='xl:text-[130px] lg:text-8xl 2sm:text-7xl text-5xl font-extrabold leading-110 text-primary-foreground'>Other <br /> Credits</h1>
+                <div className='relative after:absolute after:tl:-left-12.5 after:-left-7 after:top-1/2 after:-translate-y-1/2 after:w-[1px] after:h-[130%] after:bg-primary tl:ml-12.5 ml-7'>
+                    <h1 className='tl:text-[130px] tab:text-8xl ts:text-7xl text-5xl font-extrabold leading-110 text-primary-foreground'>Other <br /> Credits</h1>
                 </div>
-                <div className='grid lg:grid-cols-3 grid-cols-2 gap-[23px] mt-20'>
+                <div className='grid tab:grid-cols-3 grid-cols-2 gap-[23px] mt-20'>
                     {
                         temaList.slice(4, 6).map(({ id, desc, img, name, position, link }) => <TeamCardThree key={id} desc={desc} img={img} name={name} position={position} link={link} />)
                     }

@@ -23,8 +23,8 @@ const Services = () => {
         </div>
       </section>
       {/* -------- service list */}
-      <div className='container-fluid lg:pt-20 2sm:pt-16 pt-10'>
-        <div className='grid 2xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-8 px-4 2sm:px-0'>
+      <div className='container-fluid tab:pt-20 ts:pt-16 pt-10'>
+        <div className='grid tl:grid-cols-4 tab:grid-cols-3 phx:grid-cols-2 gap-8 px-4 ts:px-0'>
           {
             servicesData.map(({ id, service_desc, service_name, link }) => <ServiceCard key={id} id={id} service_desc={service_desc} service_name={service_name} link={link} />)
           }

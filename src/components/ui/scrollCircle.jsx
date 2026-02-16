@@ -39,7 +39,7 @@ const ScrollCircle = () => {
             className={`${showBackToTop ? "block" : "hidden"} fixed bottom-5 right-5 z-20 bg-primary rounded-full cursor-pointer shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]`}
         >
             <svg
-                className=" sm:w-16 sm:h-16 w-14 h-14"
+                className=" phx:w-16 phx:h-16 w-14 h-14"
                 width="100%"
                 height="100%"
                 viewBox="-1 -1 102 102"

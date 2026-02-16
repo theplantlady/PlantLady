@@ -18,14 +18,14 @@ const Cart = ({ setCartActive, cartActive }) => {
     return (
         <>
             <div onClick={() => setCartActive(false)} className={`bg-overlay h-full fixed z-30 right-0 top-0 transition-all w-full ${cartActive ? " visible" : "invisible"}`}></div>
-            <div className={`bg-background 2sm:px-17.5 px-5 2sm:py-30 py-16 max-w-[552px] max-h-screen min-h-screen overflow-y-auto w-full fixed z-40 top-0 transition-all duration-700 ${cartActive ? "right-0" : "-right-full"}`}>
+            <div className={`bg-background ts:px-17.5 px-5 ts:py-30 py-16 max-w-[552px] max-h-screen min-h-screen overflow-y-auto w-full fixed z-40 top-0 transition-all duration-700 ${cartActive ? "right-0" : "-right-full"}`}>
                 <div className='flex justify-between items-center'>
                     <h5 className='text-xl font-bold text-primary-foreground'>Your Cart ({countCartProductQuantity(products)})</h5>
                     <p className='text-xl font-bold cursor-pointer text-primary-foreground' onClick={() => setCartActive(false)}>Close (X)</p>
                 </div>
                 <div className='flex flex-col justify-between h-[calc(100vh - 270px]'>
                     <div className='mt-[62px]'>
-                        {products.length === 0 && <h3 className='text-4xl 2sm:text-6xl font-extrabold'>No Product your cart</h3>}
+                        {products.length === 0 && <h3 className='text-4xl ts:text-6xl font-extrabold'>No Product your cart</h3>}
                         <ul>
                             {
                                 products.map(({ id, price, product_img, product_name, quantity }, index) => {

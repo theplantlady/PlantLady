@@ -51,7 +51,7 @@ const MobileNavbar = ({ linkColor }) => {
 
                         <div>
                             <nav
-                                className={`max-h-screen min-h-screen overflow-y-auto bg-[#F9FFFC] absolute transition-all duration-500 ${isMenuActive ? "right-0" : "sm:-right-full -right-[150%]"} top-0 z-50 py-4 pl-4`}>
+                                className={`max-h-screen min-h-screen overflow-y-auto bg-[#F9FFFC] absolute transition-all duration-500 ${isMenuActive ? "right-0" : "phx:-right-full -right-[150%]"} top-0 z-50 py-4 pl-4`}>
                                 <div className='flex justify-between items-center'>
                                     <Link href={"/"} className='text-primary-foreground `hidden logo '>
                                         <Logo height={"100%"} width={"100%"}

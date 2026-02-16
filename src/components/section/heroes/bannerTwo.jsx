@@ -1,18 +1,18 @@
 "use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import hero_2 from "@/assets/images/hero-2.jpg"
-import hero_3 from "@/assets/images/hero-3.jpg"
-import hero_vector from "@/assets/images/hero-vector-bg.png"
+import hero_2 from "@/assets/images/hero/hero-2.jpg"
+import hero_3 from "@/assets/images/hero/hero-3.jpg"
+import hero_vector from "@/assets/images/hero/hero-vector-bg.png"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation, Autoplay } from "swiper/modules"
 import 'swiper/css';
 
-import hero_5 from "@/assets/images/hero-5.jpg"
-import hero_6 from "@/assets/images/hero-6.jpg"
-import hero_7 from "@/assets/images/hero-7.jpg"
-import hero_8 from "@/assets/images/hero-8.jpg"
+import hero_5 from "@/assets/images/hero/hero-5.jpg"
+import hero_6 from "@/assets/images/hero/hero-6.jpg"
+import hero_7 from "@/assets/images/hero/hero-7.jpg"
+import hero_8 from "@/assets/images/hero/hero-8.jpg"
 import ButtonFill from '@/components/ui/buttons/buttonFill'
 import ButtonOutline from '@/components/ui/buttons/buttonOutline'
 import { useRef } from 'react'
@@ -62,7 +62,7 @@ const BannerTwo = () => {
         clickable: true,
         el: ".hero-pagination",
         renderBullet: function (index, className) {
-            return `<span class='${className} text-white translate-y-16 opacity-0 absolute h-0 leading-[90%] [font-size:_clamp(60px,10vw,150px)] font-extrabold lg:text-right'>${bannerData[index].title}</span>`;
+            return `<span class='${className} text-white translate-y-16 opacity-0 absolute h-0 leading-[90%] [font-size:_clamp(60px,10vw,150px)] font-extrabold tab:text-right'>${bannerData[index].title}</span>`;
         },
     };
     return (
@@ -70,14 +70,14 @@ const BannerTwo = () => {
             <div className='grid grid-cols-2'>
                 {/* --------- Banner left side */}
                 <div className='bg-primary pt-[136px] pb-[148px] bg-cover bg-no-repeat bg-right' style={{ backgroundImage: `url(${hero_vector.src})` }}>
-                    <div className='z-10 relative px-3 md:px-0 '>
+                    <div className='z-10 relative px-3 tab:px-0 '>
                         <div className='hero-pagination flex ' ></div>
-                        <div className='flex flex-col lg:flex-row lg:items-end justify-end gap-5 xl:pr-10 pr-3 lg:mt-10 mt-5'>
+                        <div className='flex flex-col tab:flex-row tab:items-end justify-end gap-5 tl:pr-10 pr-3 tab:mt-10 mt-5'>
                             <Link href={"/about-us"} className='mt-10 inline-block'>
-                                <ButtonOutline className={"px-[35px] sm:py-2.5 py-2.5 border-secondary text-secondary-foreground after:bg-secondary hover:text-primary after:left-0"}><span className='text-base'>Who we are</span></ButtonOutline>
+                                <ButtonOutline className={"px-[35px] phx:py-2.5 py-2.5 border-secondary text-secondary-foreground after:bg-secondary hover:text-primary after:left-0"}><span className='text-base'>Who we are</span></ButtonOutline>
                             </Link>
-                            <Link href={"/project-archive"} className='lg:mt-10 mt-2 inline-block'>
-                                <ButtonFill className={"px-[35px] sm:py-2.5 py-2.5 after:bg-secondary text-primary-foreground border-secondary hover:text-secondary-foreground"}><span className='text-base'>View Projects</span></ButtonFill>
+                            <Link href={"/project-archive"} className='tab:mt-10 mt-2 inline-block'>
+                                <ButtonFill className={"px-[35px] phx:py-2.5 py-2.5 after:bg-secondary text-primary-foreground border-secondary hover:text-secondary-foreground"}><span className='text-base'>View Projects</span></ButtonFill>
                             </Link>
                         </div>
                     </div>
@@ -110,7 +110,7 @@ const BannerTwo = () => {
                         }
                         <div className='flex justify-between absolute right-0 bottom-0 z-40'>
                             {/* ------- Next and prev arrow */}
-                            <div className='flex flex-col sm:w-[90px] w-[70px] xl:h-[181px] h-[136px] '>
+                            <div className='flex flex-col phx:w-[90px] w-[70px] tl:h-[181px] h-[136px] '>
                                 <button onClick={() => swiperRef.current?.slideNext()} className={`bg-primary text-secondary-foreground flex justify-center items-center h-1/2 `}> <RightArrow width={"35"} height={"22"} /> </button>
                                 <button onClick={() => swiperRef.current?.slidePrev()} className={`bg-secondary text-primary-foreground flex justify-center items-center h-1/2 rotate-180`}> <RightArrow width={"35"} height={"22"} /> </button>
                             </div>
@@ -120,13 +120,13 @@ const BannerTwo = () => {
                 </div>
             </div>
             {/* ---------- banner bottom  */}
-            <div className='grid lg:grid-cols-3 2sm:grid-cols-2'>
+            <div className='grid tab:grid-cols-3 ts:grid-cols-2'>
                 {
                     bannerBottomContent.map(({ id, banner_img, title }) => {
                         return (
                             <div key={id} className='relative overflow-hidden after:contents-[""] after:absolute after:bottom-0 after:left-0 after:w-full after:h-full after:bg-overlay '>
                                 <Image src={banner_img} loading='lazy'     alt='banner-bottom-bg' width={780} height={408} />
-                                <h4 className='text-background 2xl:text-[82px] md:text-6xl text-5xl leading-120 font-extrabold absolute xl:left-12.5 md:left-9 sm:left-7 left-3 top-1/2 -translate-y-1/2 z-10'>{title}</h4>
+                                <h4 className='text-background tl:text-[82px] tab:text-6xl text-5xl leading-120 font-extrabold absolute tl:left-12.5 tab:left-9 phx:left-7 left-3 top-1/2 -translate-y-1/2 z-10'>{title}</h4>
                             </div>
                         )
                     })

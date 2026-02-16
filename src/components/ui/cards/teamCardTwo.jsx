@@ -4,8 +4,8 @@ import Link from 'next/link'
 import SectionSidebarImg from '../sectionSidebarImg'
 const TeamCardTwo = ({ img, name, link, position, desc }) => {
     return (
-        <div className='flex lg:flex-row flex-col gap-[34px] items-center'>
-            <Link href={link} className='w-full h-full lg:min-w-52'>
+        <div className='flex tab:flex-row flex-col gap-[34px] items-center'>
+            <Link href={link} className='w-full h-full tab:min-w-52'>
                 <SectionSidebarImg img={img} section_name={"team"} className={"w-full h-full"}/>
             </Link>
             <div >

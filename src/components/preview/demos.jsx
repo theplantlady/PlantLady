@@ -161,7 +161,7 @@ const Demos = () => {
             <div className='container'>
                 <div>
                     <h1 className='text-center [font-size:_clamp(40px,7vw,90px)] font-extrabold leading-120 text-primary-foreground mb-15'>Stylish & Flexible <br /> Layouts</h1>
-                    <div className='grid md:grid-cols-2 gap-10'>
+                    <div className='grid tab:grid-cols-2 gap-10'>
                         {
                             homeDemoData.map(({ id, demo_img, demo_name, link }) => <DemoCard key={id} demo_img={demo_img} demo_name={demo_name} link={link} />)
                         }
@@ -169,7 +169,7 @@ const Demos = () => {
                 </div>
                 <div className='pt-25'>
                     <h1 className='text-center [font-size:_clamp(40px,7vw,90px)] font-extrabold leading-120 text-primary-foreground mb-15'>Inner-Pages</h1>
-                    <div className='grid xl:grid-cols-3 md:grid-cols-2 gap-10'>
+                    <div className='grid tl:grid-cols-3 tab:grid-cols-2 gap-10'>
                         {
                             innerDemoData.map(({ id, demo_img, demo_name, link }) => <DemoCard key={id} demo_img={demo_img} demo_name={demo_name} link={link} />)
                         }

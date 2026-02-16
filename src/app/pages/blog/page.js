@@ -26,8 +26,8 @@ const BlogArchive = () => {
                     />
                 </div>
 
-                <div className="container lg:py-30 2sm:py-20 py-14">
-                    <div className="grid lg:grid-cols-3 2sm:grid-cols-2 gap-x-5 gap-y-[75px]">
+                <div className="container tab:py-30 ts:py-20 py-14">
+                    <div className="grid tab:grid-cols-3 ts:grid-cols-2 gap-x-5 gap-y-[75px]">
                         {blogIndex.map(({ id, date, tag, thumb, title, link }) => (
                             <div key={id}>
                                 <BlogCard date={date} tag={tag} thumb={thumb} title={title} link={link} />

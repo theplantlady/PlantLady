@@ -12,7 +12,7 @@ const jobOverview = [
 ]
 const JobDetailsSidebar = () => {
     return (
-        <div className='bg-primary py-12.5 sm:px-9 px-5 mt-10 lg:mt-0 sticky top-10 '>
+        <div className='bg-primary py-12.5 phx:px-9 px-5 mt-10 tab:mt-0 sticky top-10 '>
             <Title title_text={"Job Overview"} className={"mb-11 text-secondary-foreground font-semibold"} />
             <ul className='mb-16 flex flex-col gap-y-[34px]'>
                 <li>

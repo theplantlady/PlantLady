@@ -13,14 +13,14 @@ const AboutTwo = () => {
                     sectionTitle={'Our Green Vision'}
                     sectionDesc={'Bringing Nature into Every Space with Passion and Expertise'}
                 />
-                <div className={`bg-primary xl:mt-[220px] lg:mt-25 md:mt-44 mt-[540px] xl:mb-20 mb-0`}>
+                <div className={`bg-primary tl:mt-[220px] tab:mt-25 tab:mt-44 mt-[540px] tl:mb-20 mb-0`}>
                     <div className='container'>
-                        <div className='flex lg:flex-row flex-col items-center justify-between gap-[66px]'>
-                            <div className='md:-mt-25 -mt-[470px] -mb-25'>
+                        <div className='flex tab:flex-row flex-col items-center justify-between gap-[66px]'>
+                            <div className='tab:-mt-25 -mt-[470px] -mb-25'>
                                 <SectionSidebarImg img={about_bg} section_name={"about-bg"}/>
                             </div>
-                            <div className='max-w-[533px] lg:pt-20 pt-20 lg:pb-10 pb-10'>
-                                <h2 className='text-secondary-foreground text-3xl 2sm:text-4xl font-bold leading-120 mb-14 max-w-[400px]'>
+                            <div className='max-w-[533px] tab:pt-20 pt-20 tab:pb-10 pb-10'>
+                                <h2 className='text-secondary-foreground text-3xl ts:text-4xl font-bold leading-120 mb-14 max-w-[400px]'>
                                     Cultivating Beauty: Our Story
                                 </h2>
                                 <p className='text-secondary-foreground'>

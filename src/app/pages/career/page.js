@@ -38,8 +38,8 @@ const Career = () => {
             sectionTitle={"Why Join Architronix"}
             sectionDesc={"Discover Your Future at Architronix: Where Innovation Meets Passion"}
           />
-          <div className='lg:pt-30 2sm:pt-20 pt-14  '>
-            <div className='grid xl:grid-cols-4 lg:grid-cols-2 2sm:grid-cols-2 gap-x-[32px] gap-y-10'>
+          <div className='tab:pt-30 ts:pt-20 pt-14  '>
+            <div className='grid tl:grid-cols-4 tab:grid-cols-2 ts:grid-cols-2 gap-x-[32px] gap-y-10'>
               {
                 servicesData.map(({ id, link, service_desc, service_name }) => <ServiceCard key={id} id={id} service_desc={service_desc} service_name={service_name} link={link} />)
               }

@@ -26,7 +26,7 @@ const ShopSlider = ({ data, text_muted, bg_muted }) => {
                     text_muted={text_muted}
                 />
 
-                <div className='lg:pt-30 2sm:pt-20 pt-14'>
+                <div className='tab:pt-30 ts:pt-20 pt-14'>
                     <Swiper
                         spaceBetween={30}
                         breakpoints={{

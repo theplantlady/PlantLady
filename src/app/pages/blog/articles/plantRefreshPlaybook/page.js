@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import SideBar from '@/components/ui/sideBar'
-import blog_single_image from "@/assets/images/Blog20250206.png"
-import blog_inner_img from "@/assets/images/blog-inner-image.jpg"
+import blog_single_image from "@/assets/images/blog/Blog20250206.png"
+import blog_inner_img from "@/assets/images/blog/blog-inner-image.jpg"
 import QuoteIcon from '@/assets/icons/quoteIcon'
 import { blogData } from '@/lib/fackData/blogData'
 import Feedback from '@/components/section/feedback'
@@ -30,7 +30,7 @@ const plantRefreshPlaybook = ({ text_muted, bg_muted }) => {
     return (
         <>
             <section className=''>
-                <div className='object-cover bg-no-repeat 2xl:pt-[448px] xl:pt-[300px] lg:pt-[200px] pt-[150px] pb-[68px] relative z-[1] after:contents-[""] after:z-[-1] after:absolute after:left-0 after:bottom-0 after:w-full after:h-full after:bg-bottom-liner bg-cover' style={{ backgroundImage: `url(${blog_single_image.src})` }}>
+                <div className='object-cover bg-no-repeat tl:pt-[448px] tl:pt-[300px] tab:pt-[200px] pt-[150px] pb-[68px] relative z-[1] after:contents-[""] after:z-[-1] after:absolute after:left-0 after:bottom-0 after:w-full after:h-full after:bg-bottom-liner bg-cover' style={{ backgroundImage: `url(${blog_single_image.src})` }}>
                     <div className='container '>
                         <BlogTitle
                             sectionName={post.title.sectionName}
@@ -39,11 +39,11 @@ const plantRefreshPlaybook = ({ text_muted, bg_muted }) => {
                             text_muted={text_muted}
                             bg_muted={bg_muted}
                         />
-                        <p className='mt-14 text-secondary-foreground flex sm:gap-[9px] gap-[1px]'> <span>{post.meta.date}</span>  / <span>{post.meta.category}</span> / <span>{post.meta.readTime}</span> </p>
+                        <p className='mt-14 text-secondary-foreground flex phx:gap-[9px] gap-[1px]'> <span>{post.meta.date}</span>  / <span>{post.meta.category}</span> / <span>{post.meta.readTime}</span> </p>
                     </div>
                 </div>
-                <div className='container lg:pt-15 2sm:pt-20 pt-14'>
-                    <div className='grid 2xl:grid-cols-[auto_427px] lg:grid-cols-[auto_400px] 2xl:gap-[130px] lg:gap-16 items-start'>
+                <div className='container tab:pt-15 ts:pt-20 pt-14'>
+                    <div className='grid tl:grid-cols-[auto_427px] tab:grid-cols-[auto_400px] tl:gap-[130px] tab:gap-16 items-start'>
 
                         <div>
                             <div>
@@ -72,7 +72,7 @@ const plantRefreshPlaybook = ({ text_muted, bg_muted }) => {
                                             return (
                                                 <Link href={""} key={id}>
                                                     <ButtonOutline
-                                                        className={"font-normal px-2.5 sm:py-[5px] py-[5px] border"}>
+                                                        className={"font-normal px-2.5 phx:py-[5px] py-[5px] border"}>
                                                         <span className='text-lg'>{tag}</span> </ButtonOutline>
                                                 </Link>
                                             )

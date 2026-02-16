@@ -1,8 +1,8 @@
-import img_1 from "@/assets/images/gallery-1.png"
-import img_2 from "@/assets/images/gallery-2.jpeg"
-import img_3 from "@/assets/images/gallery-3.jpeg"
-import img_4 from "@/assets/images/gallery-4.jpeg"
-import img_5 from "@/assets/images/gallery-5.jpeg"
+import img_1 from "@/assets/images/gallery/gallery-1.png"
+import img_2 from "@/assets/images/gallery/gallery-2.jpeg"
+import img_3 from "@/assets/images/gallery/gallery-3.jpeg"
+import img_4 from "@/assets/images/gallery/gallery-4.jpeg"
+import img_5 from "@/assets/images/gallery/gallery-5.jpeg"
 
 export const galleryData = [
     {

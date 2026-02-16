@@ -33,8 +33,8 @@ const ProductOverview = ({ findProduct }) => {
                 <div className='flex items-center gap-2 cursor-pointer'><Rating star={rating} /> <span className='font-semibold'>(13 reviews)</span></div>
             </div>
             <p>{product_overview}</p>
-            <div className='flex sm:flex-row flex-col gap-[18px] mt-[45px] sm:max-w-full max-w-56'>
-                <div className=' px-4 flex items-center justify-center gap-2 border-[2px] border-primary sm:w-full min-h-14 max-w-44'>
+            <div className='flex phx:flex-row flex-col gap-[18px] mt-[45px] phx:max-w-full max-w-56'>
+                <div className=' px-4 flex items-center justify-center gap-2 border-[2px] border-primary phx:w-full min-h-14 max-w-44'>
                     <span className="cursor-pointer h-full flex justify-center items-center py-3 px-7" onClick={() => handleProdcutQuantity("decrement")}>
                         <Minus />
                     </span>

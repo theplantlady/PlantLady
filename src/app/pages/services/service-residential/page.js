@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import service_img from "@/assets/images/service-residential-image.png"
+import service_img from "@/assets/images/services/service-residential-image.png"
 import SectionTitle from '@/components/ui/sectionTitle'
 import Title from '@/components/ui/title'
 import ServiceSingleSidebar from '@/components/ui/serviceSingleSidebar'
@@ -18,8 +18,8 @@ const ServiceSingle = () => {
           <div className='container-fluid '>
             <SectionTitle sectionName={"Residential"} sectionTitle={"Services"} sectionDesc={"Creating Lush, Personalized Green Spaces for Homes"} />
           </div>
-          <div className='container lg:pt-30 2sm:pt-20 pt-14'>
-            <div className='grid lg:grid-cols-[58%_auto] xl:gap-[120px] gap-15 items-start'>
+          <div className='container tab:pt-30 ts:pt-20 pt-14'>
+            <div className='grid tab:grid-cols-[58%_auto] tl:gap-[120px] gap-15 items-start'>
               <div>
                 <Image src={service_img} loading='lazy' alt='residential-plantscape-service' />
                 <div className='pt-12.5'>
@@ -33,23 +33,23 @@ const ServiceSingle = () => {
                   <ul>
                     <li>
                       <h5 className='font-bold'>Custom Design Consultation:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Personalized plant selection and arrangement tailored to your home’s style, lighting, and aesthetic preferences.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Personalized plant selection and arrangement tailored to your home’s style, lighting, and aesthetic preferences.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Professional Installation:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Seamless setup of planters, living walls, and other green elements by our expert team.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Seamless setup of planters, living walls, and other green elements by our expert team.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Seasonal Plant Refresh:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Routine updates to ensure your home’s greenery stays fresh and vibrant year-round.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Routine updates to ensure your home’s greenery stays fresh and vibrant year-round.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Irrigation & Care Systems:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Smart watering and nutrient solutions for hassle-free plant maintenance.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Smart watering and nutrient solutions for hassle-free plant maintenance.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Ongoing Maintenance Plans:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Regular plant care services to keep your home’s greenery thriving.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Regular plant care services to keep your home’s greenery thriving.</p>
                     </li>
                   </ul>
                 </div>
@@ -58,19 +58,19 @@ const ServiceSingle = () => {
                   <ul>
                     <li>
                       <h5 className='font-bold'>Pet & Child-Friendly Options:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Safe, non-toxic plant choices for households with pets and children.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Safe, non-toxic plant choices for households with pets and children.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Air Purification & Wellness:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Plants strategically selected to improve indoor air quality and enhance relaxation.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Plants strategically selected to improve indoor air quality and enhance relaxation.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Space Optimization:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Vertical gardens and compact arrangements for smaller or urban living spaces.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Vertical gardens and compact arrangements for smaller or urban living spaces.</p>
                     </li>
                     <li className='pt-7.5'>
                       <h5 className='font-bold'>Luxury & Aesthetic Enhancement:</h5>
-                      <p className='mt-2.5 xl:ml-[113px] 2sm:ml-14 ml-10'>Bespoke designs that elevate the sophistication of your home’s interior and exterior.</p>
+                      <p className='mt-2.5 tl:ml-[113px] ts:ml-14 ml-10'>Bespoke designs that elevate the sophistication of your home’s interior and exterior.</p>
                     </li>
                   </ul>
                 </div>

@@ -19,8 +19,8 @@ const Team = () => {
                         sectionDesc={"Where Imagination Takes Flight, and Excellence Blossoms"}
                     />
                 </div>
-                <div className='container lg:pt-30 2sm:pt-20 pt-14'>
-                    <div className='grid lg:grid-cols-3 2sm:grid-cols-2 gap-7'>
+                <div className='container tab:pt-30 ts:pt-20 pt-14'>
+                    <div className='grid tab:grid-cols-3 ts:grid-cols-2 gap-7'>
                         {
                             teamData.map(({ id, img, name, position, social_link }) => <TeamCardOne key={id} img={img} name={name} position={position} social_link={social_link} />)
                         }

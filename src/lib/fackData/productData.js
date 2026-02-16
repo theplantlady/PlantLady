@@ -1,10 +1,10 @@
-import product_img_1 from "@/assets/images/shop-image-1.jpg"
-import product_img_2 from "@/assets/images/shop-image-2.jpg"
-import product_img_3 from "@/assets/images/shop-image-3.jpg"
-import product_img_4 from "@/assets/images/shop-image-4.jpg"
-import product_img_5 from "@/assets/images/shop-image-5.jpg"
-import product_tab_1 from "@/assets/images/shop-tab-image-lg-1.jpg"
-import product_tab_2 from "@/assets/images/shop-tab-image-lg-2.jpg"
+import product_img_1 from "@/assets/images/shop/shop-image-1.jpg"
+import product_img_2 from "@/assets/images/shop/shop-image-2.jpg"
+import product_img_3 from "@/assets/images/shop/shop-image-3.jpg"
+import product_img_4 from "@/assets/images/shop/shop-image-4.jpg"
+import product_img_5 from "@/assets/images/shop/shop-image-5.jpg"
+import product_tab_1 from "@/assets/images/shop/shop-tab-image-lg-1.jpg"
+import product_tab_2 from "@/assets/images/shop/shop-tab-image-lg-2.jpg"
 
 export const productData = [
     {

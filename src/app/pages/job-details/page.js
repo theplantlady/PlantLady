@@ -47,18 +47,18 @@ const JobDetails = () => {
         <div className='bg-secondary pt-[94px] pb-[130px]'>
           <div className='container'>
             <h2 className='[font-size:_clamp(40px,7vw,90px)] leading-120 text-primary-foreground font-extrabold max-w-[768px]'>Senior Interior Designer</h2>
-            <div className='flex 2sm:flex-row flex-col justify-between pt-11'>
-              <div className='flex sm:flex-row flex-col justify-between lg:basis-1/2 basis-[65%]'>
+            <div className='flex ts:flex-row flex-col justify-between pt-11'>
+              <div className='flex phx:flex-row flex-col justify-between tab:basis-1/2 basis-[65%]'>
                 <div>
                   <strong className='text-primary-foreground'>USA,California</strong>
                   <p className='text-primary-foreground'> <span>Apply before:</span> <span className='font-bold whitespace-nowrap'> 28 Feb 2024</span> </p>
                 </div>
-                <div className='2sm:mt-0 mt-6'>
+                <div className='ts:mt-0 mt-6'>
                   <strong className='text-primary-foreground'>Expert</strong>
                   <p className='text-primary-foreground flex gap-2'> <span>$45k - $60k </span>/ <span className='font-bold'>year</span></p>
                 </div>
               </div>
-              <div className='2sm:mt-0 mt-6'>
+              <div className='ts:mt-0 mt-6'>
                 <Link href={""}>
                   <ButtonFill className={"px-7.5 py-2.5 after:left-0"}>Apply Now</ButtonFill>
                 </Link>
@@ -68,7 +68,7 @@ const JobDetails = () => {
         </div>
       </div>
       <div className='container pt-30'>
-        <div className='grid lg:grid-cols-[auto_427px] xl:gap-x-[132px] gap-x-10 items-start'>
+        <div className='grid tab:grid-cols-[auto_427px] tl:gap-x-[132px] gap-x-10 items-start'>
           <div>
             <div>
               <Title title_text={"Job Description"} />
@@ -82,7 +82,7 @@ const JobDetails = () => {
                   return (
                     <div key={id}>
                       <h5 className='font-bold'>{requrment}</h5>
-                      <ul className='2sm:ml-[132px] sm:ml-20 ml-10 py-7 list-disc'>
+                      <ul className='ts:ml-[132px] phx:ml-20 ml-10 py-7 list-disc'>
                         {
                           keys.map((key, index) => {
                             return (
