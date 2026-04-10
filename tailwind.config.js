@@ -20,7 +20,17 @@ module.exports = {
         "md": "960px",
         "2sm": "768px",
         "sm": "576px",
-        "xm": "340px"
+        "xm": "340px",
+"ph": "375px",
+"php": "425px",
+"phx": "500px",
+"ts": "768px",
+"tab": "1024px",
+"tl": "1280px",
+"lp": "1536px",
+"dt": "1920px",
+"wd": "2560px",
+"4k": "3500px"
       },
       spacing: {
         "2.5": "10px",
