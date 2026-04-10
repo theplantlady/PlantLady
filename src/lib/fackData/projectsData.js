@@ -161,7 +161,7 @@ export const projectsData = [
         area: "2,500 sq ft",
         project_year: "2024",
         project_type: "Hospitality & Beauty Interior",
-        link: "/pages/projects/project-four",
+        link: "/pages/projects/project-five",
         location: "Miami, Florida, USA"
     },
 ];
