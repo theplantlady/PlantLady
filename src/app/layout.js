@@ -4,11 +4,15 @@ import favicon from "@/app/favicon.ico";
 import LayoutChildren from "@/lib/layoutChildren";
 import ProgressCircle from "@/components/ui/scrollCircle";
 
+import SalesSlideoverWrapper from "@/components/ui/SalesSlideoverWrapper";
+
 const plus_jakarta_sans = Plus_Jakarta_Sans({
   subsets: ['latin'],
   display: 'swap',
   variable: '--plus-jakarta-sans',
 })
+
+
 
 export const metadata = {
   title: "The Plant Lady",
@@ -34,6 +38,7 @@ export default function RootLayout({ children }) {
           {/* ------ body line end */}
           <ProgressCircle />
           <LayoutChildren>
+            <SalesSlideoverWrapper></SalesSlideoverWrapper>
             {children}
           </LayoutChildren>
         </div>

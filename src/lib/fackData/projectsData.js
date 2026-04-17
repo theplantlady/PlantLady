@@ -76,7 +76,7 @@ export const projectsData = [
     },
     {
         id: 2,
-        project_name: "Living Wall Workspace",
+        project_name: "Living Wall Workspaces",
         project_imgs: [
             project_2_img_1,
             project_2_img_2,
