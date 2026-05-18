@@ -5,18 +5,14 @@ import project_img_2 from "@/assets/images/projects/project-image-2.jpg"
 import RightArrow from '@/assets/icons/rightArrow'
 import ProjectSingleSliderOne from '@/components/section/projectSingle/projectSingleSliderOne'
 import Paragraph from '@/components/section/projectSingle/paragraph'
-// import ProjectSingleSliderTwo from '@/components/section/projectSingle/projectSingleSliderTwo'
 import TeamTwo from '@/components/section/team/teamTwo'
 import Feedback from '@/components/section/feedback'
 import ButtonOutline from '@/components/ui/buttons/buttonOutline'
 import Title from '@/components/ui/title'
-import dynamic from 'next/dynamic'
-
-const ProjectSingleSliderTwo = dynamic(() => import('@/components/section/projectSingle/projectSingleSliderTwo'), { ssr: false })
 
 export const metadata = {
-    title: "Architronix -- Project Single",
-    description: "Architronix is a next js and tailwind css website",
+    title: "Plant Lady -- Project Single",
+    description: "Plant Lady is a next js and tailwind css website",
 };
 
 const ProjectSingle = () => {
@@ -75,7 +71,7 @@ const ProjectSingle = () => {
                     <Paragraph />
                     <ProjectSingleSliderOne />
                     <Paragraph />
-                    <ProjectSingleSliderTwo />
+                    
                     <Paragraph />
                 </div>
 

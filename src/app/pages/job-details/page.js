@@ -7,8 +7,8 @@ import { jobPostList } from '@/lib/fackData/jobPostList'
 
 
 export const metadata = {
-  title: "Architronix -- Job Details",
-  description: "Architronix is a next js and tailwind css website",
+  title: "Plant Lady -- Job Details",
+  description: "Plant Lady is a next js and tailwind css website",
 };
 const JobDetails = () => {
   const requrments = [

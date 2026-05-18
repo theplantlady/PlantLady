@@ -7,8 +7,8 @@ import AboutThree from '@/components/section/about/aboutThree'
 import Faq from '@/components/section/faq'
 
 export const metadata = {
-  title: "Architronix -- Career",
-  description: "Architronix is a next js and tailwind css website",
+  title: "Plant Lady -- Career",
+  description: "Plant Lady is a next js and tailwind css website",
 };
 const Career = () => {
   return (
@@ -18,7 +18,7 @@ const Career = () => {
           <SectionTitle
             sectionName={"Career"}
             sectionTitle={"Career Opportunities"}
-            sectionDesc={"Discover Your Future at Architronix: Where Innovation Meets Passion"}
+            sectionDesc={"Discover Your Future at Plant Lady: Where Innovation Meets Passion"}
           />
         </div>
         <div className='container mt-30'>
@@ -35,8 +35,8 @@ const Career = () => {
         <div className='container-fluid '>
           <SectionTitle
             sectionName={"Why"}
-            sectionTitle={"Why Join Architronix"}
-            sectionDesc={"Discover Your Future at Architronix: Where Innovation Meets Passion"}
+            sectionTitle={"Why Join Plant Lady"}
+            sectionDesc={"Discover Your Future at Plant Lady: Where Innovation Meets Passion"}
           />
           <div className='tab:pt-30 ts:pt-20 pt-14  '>
             <div className='grid tl:grid-cols-4 tab:grid-cols-2 ts:grid-cols-2 gap-x-[32px] gap-y-10'>
