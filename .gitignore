@@ -456,3 +456,8 @@
 /.next/static/chunks/webpack.js
 /.next/server/webpack-runtime.js
 .DS_Store
+/.idea/
+/final_check.py
+/refactor_sales_form_filtering_v2.py
+/trigger_mirror.py
+/wrap_services.py
