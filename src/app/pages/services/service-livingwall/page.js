@@ -66,6 +66,41 @@ const ServiceSingle = () => {
                     </li>
                   </ul>
                 </div>
+                
+                <div className='pt-12.5 border-t border-gray-200 mt-12.5'>
+                  <Title title_text={"Preparation & Planning"} />
+                  <div className='grid md:grid-cols-2 gap-8 mt-6'>
+                    <div>
+                      <h5 className='font-bold mb-3 underline decoration-plant-tan underline-offset-4'>1. Measurement Guide</h5>
+                      <p className='text-sm leading-relaxed'>
+                        To help us provide an accurate quote, measure the <strong>Height</strong> and <strong>Width</strong> of the intended wall space. 
+                        Note any obstructions like thermostats, outlets, or light switches.
+                      </p>
+                    </div>
+                    <div>
+                      <h5 className='font-bold mb-3 underline decoration-plant-tan underline-offset-4'>2. Lighting Guide</h5>
+                      <ul className='text-sm space-y-2'>
+                        <li><strong>Bright:</strong> Direct sun or very close to large windows.</li>
+                        <li><strong>Moderate:</strong> Consistent indirect light throughout the day.</li>
+                        <li><strong>Low:</strong> No direct sun, far from windows.</li>
+                        <li><strong>Note:</strong> We can integrate professional grow lighting if natural light is insufficient.</li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                  <div className='mt-10 bg-plant-offwhite p-6 rounded-lg'>
+                    <h5 className='font-bold mb-3'>3. Investment Transparency</h5>
+                    <p className='text-sm mb-4'>
+                      Living wall investments vary based on scale, plant density, and irrigation complexity. Typical starting ranges:
+                    </p>
+                    <ul className='text-sm grid sm:grid-cols-2 gap-4 italic'>
+                      <li>• <strong>$5K – $10K:</strong> Small residential accent walls or moss-based designs.</li>
+                      <li>• <strong>$10K – $25K:</strong> Medium-scale feature walls for offices or lobbies.</li>
+                      <li>• <strong>$25K+:</strong> Large-scale custom installations with integrated automated irrigation.</li>
+                    </ul>
+                  </div>
+                </div>
+
                 <strong className='mt-12.5 block'>
                   Elevate your space with a stunning, eco-friendly living wall by The Plant Lady. Contact us today to bring nature indoors with style and sustainability.
                 </strong>

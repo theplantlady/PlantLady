@@ -70,6 +70,37 @@ const ServiceSingle = () => {
                     </li>
                   </ul>
                 </div>
+                
+                <div className='pt-12.5 border-t border-gray-200 mt-12.5'>
+                  <Title title_text={"Maintenance Frequency Guide"} />
+                  <p className='text-primary-foreground mb-6'>
+                    We offer flexible care plans designed to ensure your commercial plantscape remains in showroom condition without disrupting your operations.
+                  </p>
+                  <div className='space-y-4'>
+                    <div className='flex gap-4 items-start'>
+                      <div className='bg-plant-pink text-white rounded-full px-3 py-1 text-xs font-bold'>Weekly</div>
+                      <div>
+                        <h6 className='font-bold text-sm'>High-Impact Environments</h6>
+                        <p className='text-xs text-gray-600'>Best for hotel lobbies, restaurants, and high-traffic retail where appearance is critical every day.</p>
+                      </div>
+                    </div>
+                    <div className='flex gap-4 items-start border-t border-gray-100 pt-4'>
+                      <div className='bg-plant-tan text-white rounded-full px-3 py-1 text-xs font-bold'>Bi-Weekly</div>
+                      <div>
+                        <h6 className='font-bold text-sm'>Standard Office Spaces</h6>
+                        <p className='text-xs text-gray-600'>Ideal for most corporate offices and shared workspaces with hardy, indirect-light plants.</p>
+                      </div>
+                    </div>
+                    <div className='flex gap-4 items-start border-t border-gray-100 pt-4'>
+                      <div className='bg-plant-leaf text-white rounded-full px-3 py-1 text-xs font-bold'>Monthly</div>
+                      <div>
+                        <h6 className='font-bold text-sm'>Resilient Low-Light Setups</h6>
+                        <p className='text-xs text-gray-600'>Perfect for low-maintenance varieties in satellite offices or common areas with stable conditions.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <strong className='mt-12.5 block'>
                   Elevate your commercial space with professional plantscape design, installation, and maintenance by The Plant Lady. Contact us today to transform your business with biophilic beauty.
                 </strong>

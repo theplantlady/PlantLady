@@ -5,8 +5,8 @@ import { cardSlideAnimation, cardSlideAnimationDelay, cardSlideAnimationRight, c
 import React from "react";
 
 export const metadata = {
-    title: "Architronix -- Product Archive",
-    description: "Architronix is a next js and tailwind css website",
+    title: "Plant Lady -- Project Archive",
+    description: "Plant Lady is a next js and tailwind css website",
 };
 
 const ProjectArchive = () => {
@@ -22,7 +22,9 @@ const ProjectArchive = () => {
             <div className='lg:pt-30 2sm:pt-20 pt-14'>
                 <div className=''>
                     {
-                        projectsData.map(({ id, project_desc, project_img, project_name, project_year, project_type, location, link }) => {
+                        projectsData.map(({ id, slug, project_desc, project_imgs, project_name, project_year, project_type, location }) => {
+                            const project_img = project_imgs?.[0]
+                            const link = slug ? `/pages/projects/${slug}` : null
                             if (id % 2 === 0) {
                                 return (
                                     <ProjectCardOne
@@ -35,7 +37,7 @@ const ProjectArchive = () => {
                                         link={link}
                                         project_name={project_name}
                                         order={'lg:order-1 order-0'}
-                                        position={"lg:absolute lg:right-0 lg:top-1/2 lg:-translate-y-1/2"}
+                                        position={"relative  lg:right-0 lg:-ml-12"}
                                         imageVariants={cardSlideAnimationRight()}
                                         cardVariants={cardSlideAnimationRightDelay()}
                                     />
@@ -52,7 +54,8 @@ const ProjectArchive = () => {
                                         project_year={project_year}
                                         link={link}
                                         project_name={project_name}
-                                        position={"lg:absolute lg:left-0 lg:top-1/2 lg:-translate-y-1/2"}
+                                        order={'lg:order-2 order-3'}
+                                        position={"relative lg:left-0 lg:-mr-12"}
                                         imageVariants={cardSlideAnimation()}
                                         cardVariants={cardSlideAnimationDelay()}
                                     />

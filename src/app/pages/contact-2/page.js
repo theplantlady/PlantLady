@@ -1,3 +1,4 @@
+'use client'
 import RightArrow from '@/assets/icons/rightArrow'
 import ButtonOutline from '@/components/ui/buttons/buttonOutline'
 import AddressCard from '@/components/ui/cards/addressCard'
@@ -15,10 +16,6 @@ const LeafletMap = dynamic(
     }
 )
 
-export const metadata = {
-    title: "Architronix -- Contact-2",
-    description: "Architronix is a next js and tailwind css website",
-};
 const ContactTwo = () => {
     return (
         <section className='mb-30'>

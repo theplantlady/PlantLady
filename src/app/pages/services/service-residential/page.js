@@ -74,6 +74,26 @@ const ServiceSingle = () => {
                     </li>
                   </ul>
                 </div>
+                
+                <div className='pt-12.5 border-t border-gray-200 mt-12.5'>
+                  <Title title_text={"Safe & Stunning Plant Palettes"} />
+                  <p className='text-primary-foreground mb-6'>
+                    Choosing the right plants for your home means balancing aesthetics with safety. We specialize in selecting varieties that thrive in your specific light while keeping your family and pets in mind.
+                  </p>
+                  <div className='grid sm:grid-cols-2 gap-6'>
+                    <div className='bg-white p-4 rounded border-l-4 border-plant-leaf'>
+                      <h6 className='font-bold mb-2'>Family-Safe Favorites</h6>
+                      <p className='text-sm italic'>Spider Plants, Palms, Ferns, and Calatheas.</p>
+                      <p className='text-xs mt-2 text-gray-500'>Non-toxic and beautiful for homes with pets or small children.</p>
+                    </div>
+                    <div className='bg-white p-4 rounded border-l-4 border-plant-tan'>
+                      <h6 className='font-bold mb-2'>Statement Designers</h6>
+                      <p className='text-sm italic'>Monstera Deliciosa, Fiddle Leaf Figs, and Snake Plants.</p>
+                      <p className='text-xs mt-2 text-gray-500'>Stunning architectural plants that create a luxury feel.</p>
+                    </div>
+                  </div>
+                </div>
+
                 <strong className='mt-12.5 block'>
                   Elevate your home with professional plantscape design, installation, and maintenance by The Plant Lady. Contact us today to bring natural beauty into your living space.
                 </strong>

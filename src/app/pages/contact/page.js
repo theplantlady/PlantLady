@@ -1,4 +1,4 @@
-
+"use client"
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
 
@@ -19,11 +19,6 @@ const LeafletMap = dynamic(
         ssr: false
     }
 )
-
-export const metadata = {
-    title: "Architronix -- Contact",
-    description: "Architronix is a next js and tailwind css website",
-};
 
 const Contact = () => {
 
