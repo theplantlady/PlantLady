@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+// import Image from 'next/image'
 import SectionTitle from '../../ui/sectionTitle'
 import about_bg from "@/assets/images/about-image-2.jpg"
 import SectionSidebarImg from '@/components/ui/sectionSidebarImg'
@@ -32,7 +32,6 @@ const AboutTwo = () => {
                                     with science</b>, ensuring each space is both visually stunning and ecologically thriving.
                                     Our approach goes beyond aesthetics—we create <b>living, breathing environments</b> that enhance well-being, purify the air, and elevate everyday experiences.
                                 </p>
-
                             </div>
                         </div>
                     </div>

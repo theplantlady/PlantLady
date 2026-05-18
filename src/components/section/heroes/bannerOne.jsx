@@ -44,7 +44,8 @@ const BannerOne = ({data, text_muted, bg_muted, linkColor}) => {
         el: ".hero-pagination",
         renderBullet: function (index, className) {
             return `
-      <span class='${className}  flex leading-120 '>
+      <span class='${className}  flex leading-12
+      0.0 '>
          <span class='mr-2 inline-block text-3xl font-extrabold text-transparent webkit-text-stroke-width-1 webkit-text-stroke-primary active-blut tab:text-5xl'>0${index + 1}</span>
          <span class='hidden text-sm font-semibold title text-primary-foreground max-w-48 phx:max-w-56 phx:block tab:text-lg'> ${data[index].title}</span>
       </span>`;

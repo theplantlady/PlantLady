@@ -14,7 +14,7 @@ export const metadata = {
   title: "The Plant Lady",
   description: "New Website",
   icons: {
-    icon: `${favicon.src}`,
+    icon: `${favicon}`,
   },
 };
 

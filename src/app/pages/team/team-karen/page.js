@@ -2,7 +2,7 @@ import SectionTitle from '@/components/ui/sectionTitle'
 import Title from '@/components/ui/title'
 import Image from 'next/image'
 import React from 'react'
-import team_img from "@/assets/images/team-1.jpg"
+import team_img from "@/assets/images/team/team-1.jpg"
 import Link from 'next/link'
 import RightArrow from '@/assets/icons/rightArrow'
 import ProjectCardThree from '@/components/ui/cards/projectCardThree'
